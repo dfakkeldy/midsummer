@@ -1,0 +1,33 @@
+{
+  "schema_version": 1,
+  "characters": [
+    {
+      "id": "titania",
+      "name": "Titania",
+      "age": 36,
+      "appearance": "Tall mature woman, warm olive skin, long deep auburn hair in flowing waves, defined cheekbones, almond hazel eyes, long straight nose, composed expressive mouth. A small gold leaf circlet and turquoise drop earrings repeat.",
+      "costume": "Opaque jewel-magenta wrap gown, fitted waist, gold vine embroidery, bare shoulders with a covered neckline, elegant calf/side slit, gold sandals. Same gown and identifying colours in P01/P05."
+    },
+    {
+      "id": "helena",
+      "name": "Helena",
+      "age": 30,
+      "appearance": "Tall mature woman, pale warm freckled skin, long honey-blonde hair with one braid running from her temple, long oval face, grey-blue eyes, arched brows, refined nose. Small sapphire hair clasp repeats.",
+      "costume": "Opaque sapphire-blue gown, turquoise trailing outer overskirt, gold waist sash, covered neckline, bare shoulders, tasteful side slit and blue flat slippers. Same colours/features in P02/P04."
+    },
+    {
+      "id": "hermia",
+      "name": "Hermia",
+      "age": 28,
+      "appearance": "Shorter mature woman, rich warm brown skin, shoulder-length dark chestnut curls partly tied back, angular oval face, strong expressive brows, dark brown eyes, defined nose and lips. A ruby flower pin repeats.",
+      "costume": "Opaque emerald gown, ruby sash and narrow gold trim, fitted covered bodice, draped sleeve/shawl, no underwear or intimate exposure. Same colours/features in P03/P04."
+    },
+    {
+      "id": "puck",
+      "name": "Puck",
+      "age": 35,
+      "appearance": "Lean unmistakably mature adult man, warm tan skin, curly dark hair, defined adult jaw, pointed leaf-like ears, amused attentive eyes. No childlike proportions.",
+      "costume": "Opaque violet-and-teal leaf-patterned tunic, fitted trousers and brown boots; secondary court figure on branch in P05."
+    }
+  ]
+}

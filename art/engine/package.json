@@ -1,0 +1,16 @@
+{
+  "name": "painted-music-video",
+  "version": "1.0.0",
+  "private": true,
+  "license": "MIT",
+  "description": "A code-drawn music video (p5.js + p5.brush, or cel-shaded anime), rendered frame by frame in headless Chrome",
+  "scripts": {
+    "sheet": "node render.mjs --sheet=0,1,2,3,4,5 --out=out/sheet.jpg",
+    "video": "node render.mjs --frames --workers=3 && ./deliver.sh video"
+  },
+  "dependencies": {
+    "p5": "^2.3.3",
+    "p5.brush": "^2.2.3",
+    "puppeteer-core": "^25.11.0"
+  }
+}

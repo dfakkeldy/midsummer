@@ -1,0 +1,19 @@
+{
+  "schema_version": 1,
+  "scale": {
+    "1": "major failure",
+    "2": "weak",
+    "3": "adequate with visible defects",
+    "4": "strong",
+    "5": "exceptional"
+  },
+  "categories": [
+    "colour_and_painted_craft",
+    "anatomy_cloth_contact",
+    "composition_phone_readability",
+    "expression_drama",
+    "character_continuity",
+    "technical_brief_compliance"
+  ],
+  "review_method": "Fresh blind reviewer sees every neutral native image and 360px derivative plus anonymous continuity bundles. Coordinator technical QA is unblinded. AI judgments are not human acceptance."
+}

@@ -1,0 +1,6 @@
+This engine is based on ClaudeAnimationBase by John Heibel (MIT licence, see LICENSE):
+https://github.com/JohnHeibel/ClaudeAnimationBase
+
+Added for the painted-music-video skill: captions.js (sung-lyric subtitles and notes), screen.js (screen-space drawing
+helpers, from the "Put It in Writing" project), manifest.js and config.js notes, the analysis scripts, the resumable
+Chrome-relaunching --frames renderer, the clean-cut flag, and the measured cost notes in ANIMATION_GUIDE.md.
