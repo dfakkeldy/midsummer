@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "author_model": "claude-opus-5-5",
+  "pass": "draft",
+  "author_call_id": "recoveries-opus-draft-attempt-04",
+  "source_sha256": "e474cb50b85b1449f14b8fad3f8f63cdeeac2bf1439c84c0bb53a927db206a83",
+  "source_was_modified": false,
+  "files": [
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/lib/cast.js",
+      "sha256": "9b49fd3a791c34f12f4c06903a3567a43ff503bf5f175d3b34a75b9cadd2e98f",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/lib/palette.js",
+      "sha256": "4459308eb164cae7dd26c3bbc063a4d23319bb99a2b1a63a87e8bf2e87719920",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/scenes/panels.js",
+      "sha256": "820f95dc2a6828bd56924f9a7c44920c682e15ea70bc2c4f3676f7ab20995833",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    }
+  ]
+}

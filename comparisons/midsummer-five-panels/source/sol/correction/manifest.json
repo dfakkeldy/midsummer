@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "author_model": "gpt-6.1-sol",
+  "pass": "correction",
+  "author_call_id": "recoveries-sol-correction-attempt-02",
+  "source_sha256": "20e152dad4330ff4a4c9f9796c79960a3e6f602a0029a370aab193c28e2fffd4",
+  "source_was_modified": false,
+  "files": [
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/lib/cast.js",
+      "sha256": "dc56ad6273ab81cf4472e40ef41caeeb72748f7ce1a21b011bded40361cb3713",
+      "version": "recoveries-sol-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/lib/palette.js",
+      "sha256": "0999903307d65f4b1b7ac192c6de0ebfe9a74111af5ee7d762b1ae8d28915d83",
+      "version": "recoveries-sol-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/scenes/panels.js",
+      "sha256": "f7b17e891b791bc42d5370155d37f80f658e0d686a4342ed497c0769abd58472",
+      "version": "recoveries-sol-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    }
+  ]
+}
