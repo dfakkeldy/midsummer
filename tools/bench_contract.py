@@ -7,6 +7,8 @@ from urllib.parse import parse_qsl, urlsplit
 
 SOURCE_PATHS = {"src/lib/palette.js", "src/lib/cast.js", "src/scenes/panels.js"}
 LANES = {"sol", "astra", "opus", "fable"}
+MODELS = {"sol": "gpt-6.1-sol", "astra": "gpt-6-astra",
+          "opus": "claude-opus-5-5", "fable": "claude-fable-5-1"}
 
 
 def validate_package(payload: dict) -> dict[str, str]:
@@ -76,6 +78,33 @@ def validate_budget(records: list[dict]) -> None:
     for lane, phase in seen:
         if phase == "correction" and (lane, "draft") not in seen:
             raise ValueError("correction has no recorded draft")
+
+
+def validate_run_history(records: list[dict]) -> dict[str, dict]:
+    """Retries are calls; only completed packages consume creative phases."""
+    if not isinstance(records, list) or not records:
+        raise ValueError("missing author call history")
+    calls, completed = {}, []
+    for record in records:
+        call_id, lane, phase = record.get('call_id'), record.get('lane'), record.get('pass')
+        if (not isinstance(call_id, str) or not re.fullmatch(r'[a-z0-9-]+', call_id)
+                or call_id in calls or lane not in MODELS or phase not in {'draft', 'correction'}
+                or record.get('requested_model') != MODELS[lane]
+                or type(record.get('completed')) is not bool):
+            raise ValueError('invalid, duplicated or wrong-model author call')
+        if record['completed']:
+            validate_receipt(record, MODELS[lane])
+            size = record.get('source_bytes')
+            if (record.get('status') != 'verified-package'
+                    or not re.fullmatch(r'[0-9a-f]{64}', str(record.get('source_sha256', '')))
+                    or type(size) is not int or not 0 < size <= 256 * 1024):
+                raise ValueError('completed call lacks a valid authored package')
+            completed.append(record)
+        elif record.get('verified_model') is not None or record.get('source_sha256') is not None:
+            raise ValueError('unfinished call cannot verify an authored artifact')
+        calls[call_id] = record
+    validate_budget(completed)
+    return calls
 
 
 def artifact_key(source_sha256: str, settings_sha256: str, lane: str,

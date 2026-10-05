@@ -7,6 +7,7 @@ from tools.bench_contract import (
     validate_package,
     validate_receipt,
     validate_alignment,
+    validate_run_history,
 )
 
 
@@ -156,6 +157,52 @@ class AlignmentTests(unittest.TestCase):
             with self.subTest(start=start,end=end), self.assertRaises(ValueError):
                 validate_alignment(r)
 
+
+class RecoveryHistoryTests(unittest.TestCase):
+    def call(self, call_id, phase='draft', completed=True):
+        return {'call_id':call_id, 'lane':'sol', 'pass':phase,
+                'requested_model':'gpt-6.1-sol', 'completed':completed,
+                'verified_model':'gpt-6.1-sol' if completed else None,
+                'evidence_kind':'session-selection' if completed else None,
+                'evidence_source':'official saved-session model' if completed else None,
+                'status':'verified-package' if completed else 'no-completed-package',
+                'output_sha256':'a'*64 if completed else None,
+                'source_sha256':'b'*64 if completed else None,
+                'source_bytes':100 if completed else None}
+
+    def test_interrupted_calls_do_not_consume_additional_creative_phases(self):
+        history=[self.call('initial-draft'), self.call('interrupted-correction','correction',False),
+                 self.call('guard-false-positive','correction',False), self.call('resumed-correction','correction')]
+        self.assertEqual(len(validate_run_history(history)),4)
+
+    def test_second_completed_package_in_same_phase_is_rejected(self):
+        with self.assertRaises(ValueError):
+            validate_run_history([self.call('initial-draft'),self.call('second-draft')])
+
+    def test_duplicate_call_id_is_rejected(self):
+        with self.assertRaises(ValueError):
+            validate_run_history([self.call('draft'),self.call('draft','correction')])
+
+    def test_completed_correction_requires_completed_initial(self):
+        with self.assertRaises(ValueError):
+            validate_run_history([self.call('failed-draft',completed=False),self.call('correction','correction')])
+
+    def test_retry_cannot_substitute_requested_model(self):
+        r=self.call('retry',completed=False);r['requested_model']='gpt-6-astra'
+        with self.assertRaises(ValueError):
+            validate_run_history([r])
+
+    def test_unfinished_call_cannot_verify_source(self):
+        r=self.call('unfinished',completed=False);r['source_sha256']='b'*64
+        with self.assertRaises(ValueError):
+            validate_run_history([r])
+
+    def test_completed_call_requires_real_source_size_and_receipt(self):
+        for field,value in [('source_bytes',True),('source_bytes',262145),('source_sha256','invalid'),
+                            ('status','no-completed-package'),('evidence_kind','launch-flag')]:
+            r=self.call('draft');r[field]=value
+            with self.subTest(field=field,value=value),self.assertRaises(ValueError):
+                validate_run_history([r])
 
 if __name__ == "__main__":
     unittest.main()

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "author_model": "claude-fable-5-1",
+  "pass": "draft",
+  "author_call_id": "recoveries-fable-draft-attempt-03",
+  "source_sha256": "6cb858e98aee26c8fa3d45f0a97a9a655381dab7b7026b5114ae7d9f52918479",
+  "source_was_modified": false,
+  "files": [
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/lib/cast.js",
+      "sha256": "29518ea803cb266a414630787d56a660836781091c7a7bcf9cc876a1295cdcba",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/lib/palette.js",
+      "sha256": "0cfb2efb37d75805c11f9969cc9a03c7fdfa1c79d895918853be4b101fafd32a",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/scenes/panels.js",
+      "sha256": "4711e5786f4905a1bb48c0dc9f26e57886d99480f62fbc88bc712c84d62a93f0",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    }
+  ]
+}

@@ -1,0 +1,34 @@
+{
+  "schema_version": 1,
+  "author_model": "gpt-6-astra",
+  "pass": "correction",
+  "author_call_id": "recoveries-astra-correction-attempt-02",
+  "source_sha256": "dde02c99efc2faba0317ed7e5ef9d7cc030b8d607cfea183023d0e124910c7eb",
+  "source_was_modified": false,
+  "files": [
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/lib/cast.js",
+      "sha256": "7b2a992bb073ee49c3ef9aff72ebf06de908e842be2a9d17a92cd9a300547b15",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/lib/palette.js",
+      "sha256": "94989e2a5708a8fc339910f4842f8e3c92ca84d176b2713c6e81de3a2e13e0a4",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/scenes/panels.js",
+      "sha256": "f691a6c004baefe5b5a05df2931912b81b2259ddf1d9f7dda839b5aa8774dc6f",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    }
+  ]
+}

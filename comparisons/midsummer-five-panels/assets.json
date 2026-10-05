@@ -4,7 +4,7 @@
     {
       "path": "comparisons/midsummer-five-panels/source/sol/draft/src/lib/cast.js",
       "sha256": "319c49251ba2ea9b8660202ed81a9926141ce00b369bfe3c12ebad90be32bedd",
-      "version": "draft",
+      "version": "runs-sol-draft",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
@@ -12,7 +12,7 @@
     {
       "path": "comparisons/midsummer-five-panels/source/sol/draft/src/lib/palette.js",
       "sha256": "1990777de6fa2d14ae517dcca55337a5f3749e3eca2a68f82728eeb6effc001f",
-      "version": "draft",
+      "version": "runs-sol-draft",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
@@ -20,47 +20,71 @@
     {
       "path": "comparisons/midsummer-five-panels/source/sol/draft/src/scenes/panels.js",
       "sha256": "c61a860834701243c2f13d5907362c0d8f92fa96a5dc5b615705f9374145cf19",
-      "version": "draft",
+      "version": "runs-sol-draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/lib/cast.js",
+      "sha256": "dc56ad6273ab81cf4472e40ef41caeeb72748f7ce1a21b011bded40361cb3713",
+      "version": "recoveries-sol-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/lib/palette.js",
+      "sha256": "0999903307d65f4b1b7ac192c6de0ebfe9a74111af5ee7d762b1ae8d28915d83",
+      "version": "recoveries-sol-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/correction/src/scenes/panels.js",
+      "sha256": "f7b17e891b791bc42d5370155d37f80f658e0d686a4342ed497c0769abd58472",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/sol/P01.png",
-      "sha256": "aa9a091dee359deb3df811bb148e2d5fe25821fd36d328c68dda41af8ca71462",
-      "version": "draft",
+      "sha256": "79df99a09d24fb82d94067d30a57a6055264eb41ba2dd9929e06f0a419c09250",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/sol/P02.png",
-      "sha256": "66524e9d05e1a5b15c11a290923806eb0535f3b8c0a4d914f9942b7de1edc85c",
-      "version": "draft",
+      "sha256": "0b6eab52e99fbeeddd4a9ceed024bf7963976eb7c0c1f0ed70fa049ff08b458c",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/sol/P03.png",
-      "sha256": "2a9578168396fbba18a913fed20eb9b6e6b004f0b1519ef198db6913f95bb2a5",
-      "version": "draft",
+      "sha256": "65dfabb5d6459db80913e5173374eb51b6f5c75125cece8ca3d14e35d9de0836",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/sol/P04.png",
-      "sha256": "eb52e7e6e11d1c892192ba6a2d08c9f3c4842737b1453522cb288554e02b9b52",
-      "version": "draft",
+      "sha256": "8ed8734f10b1951df6a4765ad7eca0b12eea699c985bfeb0f3ecfc0bc25f1b53",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/sol/P05.png",
-      "sha256": "85a12581bd7f2fec309f55de2c95bd9cd6047424e9a36e36f70d95b66792ff53",
-      "version": "draft",
+      "sha256": "8c40bcc8beaa53a4ee8fa0b82deb3202803c1b0ddd698644f132efc446b641dd",
+      "version": "recoveries-sol-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
@@ -68,7 +92,7 @@
     {
       "path": "comparisons/midsummer-five-panels/source/astra/draft/src/lib/cast.js",
       "sha256": "ec170d726752f6d8c2f5608ba66b78c23c3c7aa7ab7a24ee7aa84cc320546aa2",
-      "version": "draft",
+      "version": "runs-astra-draft",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
@@ -76,7 +100,7 @@
     {
       "path": "comparisons/midsummer-five-panels/source/astra/draft/src/lib/palette.js",
       "sha256": "9b6c4c87e5248f56944fafc6117ebdcafedaa947f6e723a424b3c502cee09415",
-      "version": "draft",
+      "version": "runs-astra-draft",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
@@ -84,47 +108,247 @@
     {
       "path": "comparisons/midsummer-five-panels/source/astra/draft/src/scenes/panels.js",
       "sha256": "2f8d2e158b02b6eb4bf78da5434891b421d73e7dfef6ed2096e09b9bb2aac68a",
-      "version": "draft",
+      "version": "runs-astra-draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/lib/cast.js",
+      "sha256": "7b2a992bb073ee49c3ef9aff72ebf06de908e842be2a9d17a92cd9a300547b15",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/lib/palette.js",
+      "sha256": "94989e2a5708a8fc339910f4842f8e3c92ca84d176b2713c6e81de3a2e13e0a4",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/correction/src/scenes/panels.js",
+      "sha256": "f691a6c004baefe5b5a05df2931912b81b2259ddf1d9f7dda839b5aa8774dc6f",
+      "version": "recoveries-astra-correction-attempt-02",
       "license": "MIT",
       "clearance_status": "code-cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/astra/P01.png",
-      "sha256": "6d26e6879e17a227f097519a4d057c93c93e0db4477e877da129474beec22092",
-      "version": "draft",
+      "sha256": "8e950e06f60c45021d4f81297b5a5e82ab029f4ce0446041abdd33c90ccb6fd6",
+      "version": "recoveries-astra-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/astra/P02.png",
-      "sha256": "dc390b3de074e0c7c5949d5a317d9d7f1e5138efeb515ea8a9e90c2369f1aca8",
-      "version": "draft",
+      "sha256": "bf3a08722f134a5353af223f20c3d046acdce30497d8b2b75ecda130694a40e6",
+      "version": "recoveries-astra-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/astra/P03.png",
-      "sha256": "4eafc70151fa16b561d25ccf801503828703089a80b95f22cac14f75042bc0ee",
-      "version": "draft",
+      "sha256": "08b8a15e2fb04140606b97e10c11a2021ec5e4e8c6125a47f185ad44483d9a16",
+      "version": "recoveries-astra-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/astra/P04.png",
-      "sha256": "0672ed042ec19ac058d83090478056989d7792dd5d56bb35339353edade26ad3",
-      "version": "draft",
+      "sha256": "f5d6dfc9e6d5621e0cba35acefd5955729f739f23096e0aa11ce87094c6ca8bb",
+      "version": "recoveries-astra-correction-attempt-02",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
     },
     {
       "path": "comparisons/midsummer-five-panels/previews/astra/P05.png",
-      "sha256": "81455c6ddc3555f41ddd53da5521fcdc9de119e686a1f0a9c6178e3948320027",
-      "version": "draft",
+      "sha256": "60d2c8982dbc6daab84add1701727c686c6e748ea7964353bfb467d6214b791e",
+      "version": "recoveries-astra-correction-attempt-02",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/lib/cast.js",
+      "sha256": "9b49fd3a791c34f12f4c06903a3567a43ff503bf5f175d3b34a75b9cadd2e98f",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/lib/palette.js",
+      "sha256": "4459308eb164cae7dd26c3bbc063a4d23319bb99a2b1a63a87e8bf2e87719920",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/draft/src/scenes/panels.js",
+      "sha256": "820f95dc2a6828bd56924f9a7c44920c682e15ea70bc2c4f3676f7ab20995833",
+      "version": "recoveries-opus-draft-attempt-04",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/correction/src/lib/cast.js",
+      "sha256": "562bc46c481fee477edd2eb0d48eb41051ef066be9ba3346a3d42fb6b01dd8a7",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/correction/src/lib/palette.js",
+      "sha256": "e2e781f777e4bf390fe7355d755424e08e061c036402dfef49ae3dd32a9032c1",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/opus/correction/src/scenes/panels.js",
+      "sha256": "43fd56b5d4200034c201d9cd08c32e6319847bb0365d3a9b78971ac3e870f453",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/opus/P01.png",
+      "sha256": "503702866361d7d261f74568efcb2b7f0f5a8213a655e34832fbe3f7308db517",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/opus/P02.png",
+      "sha256": "5a8c4ff2e607965cb2c9a4dc3dbf2042d7b88ddbd06d10595e107c6dcd91a4a1",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/opus/P03.png",
+      "sha256": "a92e4f272660d9f8820dc7b84dff4727afa794e8e1905e9f087283cfbdaab843",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/opus/P04.png",
+      "sha256": "d007aa90f06f1e84815985c6b0e744fa1db9143562108a2f5c4f133ce31a2b48",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/opus/P05.png",
+      "sha256": "76bfdcf4a9ea3524132be93cee37c3a5c13d6d5a334b0299ffba7ff766fd1f6f",
+      "version": "recoveries-opus-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/lib/cast.js",
+      "sha256": "29518ea803cb266a414630787d56a660836781091c7a7bcf9cc876a1295cdcba",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/lib/palette.js",
+      "sha256": "0cfb2efb37d75805c11f9969cc9a03c7fdfa1c79d895918853be4b101fafd32a",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/draft/src/scenes/panels.js",
+      "sha256": "4711e5786f4905a1bb48c0dc9f26e57886d99480f62fbc88bc712c84d62a93f0",
+      "version": "recoveries-fable-draft-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/correction/src/lib/cast.js",
+      "sha256": "8c6b88c127ee34215eb8619fe839b226dc514acb2b94327d567a5751aa76f0d0",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/correction/src/lib/palette.js",
+      "sha256": "cd6a77429dff753514946151674ea316fe87c6a25d12a1c1b9e5408f0ef23132",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/fable/correction/src/scenes/panels.js",
+      "sha256": "ab69b0adfc1319c9850425661cb7d5662808a0a6c9f4cae084ace556a444e080",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/fable/P01.png",
+      "sha256": "05bdbe9bd9d8fb63e1418c1c1cc0859047cb0d90d539e8a19fc74c15ed419f62",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/fable/P02.png",
+      "sha256": "8563054b74c699cf1e6bc8ca4fd62f068e673651ab0b89a026b0437dac0e6690",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/fable/P03.png",
+      "sha256": "f7bf6d491dbe638604e2037fbfbbe7f820d1938bd9046619f79ba0a88472a461",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/fable/P04.png",
+      "sha256": "70ba30c6961e81db10a82393510b38639085c40b2fbe51c3d8511541c418c15a",
+      "version": "recoveries-fable-correction-attempt-03",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/fable/P05.png",
+      "sha256": "10709477394f0892a846ef9d0df67fdbf3fc8a49cfc5dbb36bd2e59581a0ad9d",
+      "version": "recoveries-fable-correction-attempt-03",
       "license": "CC-BY-4.0",
       "clearance_status": "cleared",
       "visibility": "public"
