@@ -7,6 +7,8 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
+        with:
+          fetch-depth: 2
       - name: Evidence and alignment contracts
         run: python3 -m unittest discover -s tests -v
       - name: JavaScript syntax
