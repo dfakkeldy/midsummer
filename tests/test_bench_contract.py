@@ -6,6 +6,7 @@ from tools.bench_contract import (
     validate_manifest,
     validate_package,
     validate_receipt,
+    validate_alignment,
 )
 
 
@@ -97,6 +98,18 @@ class ManifestAndBudgetTests(unittest.TestCase):
         with self.assertRaises(ValueError):
             validate_manifest(m, public=True)
 
+    def test_nested_private_metadata_cannot_be_published(self):
+        m = self.manifest()
+        m['provenance'] = {'raw_receipt': {'account_id': 'private'}}
+        with self.assertRaises(ValueError):
+            validate_manifest(m, public=True)
+
+    def test_signed_storage_url_cannot_be_published(self):
+        m = self.manifest()
+        m['location'] = 'https://example.org/panel.png?X-Amz-Signature=secret'
+        with self.assertRaises(ValueError):
+            validate_manifest(m, public=True)
+
     def test_extra_authored_pass_is_rejected(self):
         r = [{"lane": "sol", "pass": p} for p in ("draft", "correction", "extra")]
         with self.assertRaises(ValueError):
@@ -113,6 +126,35 @@ class ManifestAndBudgetTests(unittest.TestCase):
                    artifact_key("a" * 64, "c" * 64, "sol", "draft", "P01"),
                    artifact_key("a" * 64, "b" * 64, "sol", "correction", "P01")]
         self.assertEqual(len(values), len(set(values)))
+
+
+class AlignmentTests(unittest.TestCase):
+    def record(self):
+        return {'panel_id':'P01','chapter_id':'ch01','source_unit_ids':['a1s1u1'],
+                'exact_text_anchor':'Accepted sentence.', 'epub_sha256':'a'*64,
+                'narration_sha256':'b'*64,'alignment_unit_ids':['block-1'],
+                'start_seconds':1.0,'end_seconds':2.0,'verified':True}
+
+    def test_verified_matching_alignment_is_accepted(self):
+        validate_alignment(self.record())
+
+    def test_unverified_future_record_allows_missing_timing(self):
+        r = self.record()
+        r.update(verified=False, start_seconds=None, end_seconds=None,
+                 epub_sha256=None, narration_sha256=None, alignment_unit_ids=[])
+        validate_alignment(r)
+
+    def test_verification_requires_both_editions_and_real_alignment_ids(self):
+        for field in ('epub_sha256','narration_sha256','alignment_unit_ids'):
+            r = self.record(); r[field] = None
+            with self.subTest(field=field), self.assertRaises(ValueError):
+                validate_alignment(r)
+
+    def test_invalid_or_nonfinite_timing_cannot_be_verified(self):
+        for start,end in ((2,1),(-1,2),(1,1),(0,float('nan'))):
+            r = self.record(); r.update(start_seconds=start,end_seconds=end)
+            with self.subTest(start=start,end=end), self.assertRaises(ValueError):
+                validate_alignment(r)
 
 
 if __name__ == "__main__":

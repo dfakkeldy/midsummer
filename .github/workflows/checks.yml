@@ -1,0 +1,15 @@
+name: Repository checks
+on: [push, pull_request]
+permissions:
+  contents: read
+jobs:
+  contracts:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Evidence and alignment contracts
+        run: python3 -m unittest discover -s tests -v
+      - name: JavaScript syntax
+        run: find comparisons art/engine/src -name '*.js' -print0 | xargs -0 -r -n1 node --check
+      - name: Whitespace
+        run: git diff --check HEAD^ HEAD
