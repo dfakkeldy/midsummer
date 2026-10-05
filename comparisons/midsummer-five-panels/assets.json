@@ -1,0 +1,133 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/draft/src/lib/cast.js",
+      "sha256": "319c49251ba2ea9b8660202ed81a9926141ce00b369bfe3c12ebad90be32bedd",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/draft/src/lib/palette.js",
+      "sha256": "1990777de6fa2d14ae517dcca55337a5f3749e3eca2a68f82728eeb6effc001f",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/sol/draft/src/scenes/panels.js",
+      "sha256": "c61a860834701243c2f13d5907362c0d8f92fa96a5dc5b615705f9374145cf19",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/sol/P01.png",
+      "sha256": "aa9a091dee359deb3df811bb148e2d5fe25821fd36d328c68dda41af8ca71462",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/sol/P02.png",
+      "sha256": "66524e9d05e1a5b15c11a290923806eb0535f3b8c0a4d914f9942b7de1edc85c",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/sol/P03.png",
+      "sha256": "2a9578168396fbba18a913fed20eb9b6e6b004f0b1519ef198db6913f95bb2a5",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/sol/P04.png",
+      "sha256": "eb52e7e6e11d1c892192ba6a2d08c9f3c4842737b1453522cb288554e02b9b52",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/sol/P05.png",
+      "sha256": "85a12581bd7f2fec309f55de2c95bd9cd6047424e9a36e36f70d95b66792ff53",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/draft/src/lib/cast.js",
+      "sha256": "ec170d726752f6d8c2f5608ba66b78c23c3c7aa7ab7a24ee7aa84cc320546aa2",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/draft/src/lib/palette.js",
+      "sha256": "9b6c4c87e5248f56944fafc6117ebdcafedaa947f6e723a424b3c502cee09415",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/source/astra/draft/src/scenes/panels.js",
+      "sha256": "2f8d2e158b02b6eb4bf78da5434891b421d73e7dfef6ed2096e09b9bb2aac68a",
+      "version": "draft",
+      "license": "MIT",
+      "clearance_status": "code-cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/astra/P01.png",
+      "sha256": "6d26e6879e17a227f097519a4d057c93c93e0db4477e877da129474beec22092",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/astra/P02.png",
+      "sha256": "dc390b3de074e0c7c5949d5a317d9d7f1e5138efeb515ea8a9e90c2369f1aca8",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/astra/P03.png",
+      "sha256": "4eafc70151fa16b561d25ccf801503828703089a80b95f22cac14f75042bc0ee",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/astra/P04.png",
+      "sha256": "0672ed042ec19ac058d83090478056989d7792dd5d56bb35339353edade26ad3",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    },
+    {
+      "path": "comparisons/midsummer-five-panels/previews/astra/P05.png",
+      "sha256": "81455c6ddc3555f41ddd53da5521fcdc9de119e686a1f0a9c6178e3948320027",
+      "version": "draft",
+      "license": "CC-BY-4.0",
+      "clearance_status": "cleared",
+      "visibility": "public"
+    }
+  ]
+}

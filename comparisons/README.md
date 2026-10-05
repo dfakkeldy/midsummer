@@ -1,3 +1,3 @@
 # Comparisons
 
-The first comparison uses the same five scene briefs and one draft/correction allowance for each actual requested model. Results and actual-model evidence will be published only after they exist and have been reviewed.
+[Five bright Midsummer paintings](midsummer-five-panels/README.md) uses the same scene brief, dimensions, seeds, engine and draft/correction allowance for each requested model. Actual completion and available measurements are recorded in its results, including any missing lanes.

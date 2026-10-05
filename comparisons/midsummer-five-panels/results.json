@@ -1,0 +1,814 @@
+{
+  "schema_version": 1,
+  "complete_four_model_comparison": false,
+  "expected_slots": 20,
+  "reviewed_panels": 10,
+  "engine_commit": "8249375879aa8f273b3f661058060a480153e66d",
+  "engine_tree": "98d62df2c40d99a1ecea17632441369a002638e0",
+  "settings_sha256": "c68b9ad62994f54b52272dd895feb12be15940e771b73f1b8b05ace5a8766950",
+  "common_draft_packet_sha256": "c0ba0636d7f29147f06a57359a4fef2118a3349e85297cb4f432f085c3ba5a14",
+  "creative_launch_count": 8,
+  "blind_report_sha256": "c796e90e06e04155e51a919bced3e8c608081d36e90f6c709007405bb5afd372",
+  "review_method": {
+    "blind_scope": "Used only packet.json and its 20 named PNGs in this neutral directory. No identity maps, author sources, receipts, external references or other agents were accessed; no authorship inference was attempted.",
+    "inspection": "Individually inspected all 10 native images and all 10 exact 360px phone derivatives through view_image with detail=original, in label order. No contact sheet substituted for any inspection.",
+    "continuity": "Compared Set-A: Titania I002/I009, Helena I003/I008, Hermia I006/I008; Set-B: Titania I001/I010, Helena I004/I007, Hermia I005/I007. Puck appears once per bundle, so temporal continuity for him is untestable.",
+    "aesthetic_judgment": "Six integer scores use the supplied 1–5 rubric. Scores and descriptive visual findings are AI aesthetic judgment, separate from objective file checks, and are not human acceptance or approval.",
+    "objective_file_checks": {
+      "procedure": "Read PNG signatures and IHDR dimensions only, independently of aesthetic scoring.",
+      "native_count": 10,
+      "native_dimensions": [
+        1920,
+        1080
+      ],
+      "phone_count": 10,
+      "phone_dimensions": [
+        360,
+        203
+      ],
+      "all_dimensions_pass": true
+    },
+    "eligibility": "All ten are eligible: no observed hard adult/coverage/non-explicit safety violation or unusable scene. Stylistic and anatomy deficiencies lower scores without triggering exclusion.",
+    "freeze": "This single report is finalized before any author identities are revealed. Its SHA-256 is supplied with delivery; no post-reveal rescoring is part of this review."
+  },
+  "review_limitations": [
+    "This is one AI visual review, not a human art assessment or an objective ranking of aesthetic quality.",
+    "Age, wakefulness, coverage, expression and safe-margin observations are visual judgments; exact ages and magical state cannot be independently established from pixels. The figures appear mature, awake and non-explicit.",
+    "Only PNG format/dimensions were checked programmatically. No automated object-boundary, safe-margin, colour-volume or text detector was run; visual inspection found no text or watermark and no obvious important-feature margin clipping.",
+    "PNG dimensions and anonymous packet metadata cannot establish source provenance or the method used to create the artwork."
+  ],
+  "runs": [
+    {
+      "lane": "sol",
+      "pass": "draft",
+      "requested_model": "gpt-6.1-sol",
+      "verified_model": "gpt-6.1-sol",
+      "resolved_model": "gpt-6.1-sol",
+      "evidence_kind": "session-selection",
+      "evidence_source": "Completed run official turn_context.model",
+      "completed": true,
+      "status": "verified-package",
+      "timed_out": false,
+      "started_at": "2026-10-05T02:46:46.742216+00:00",
+      "ended_at": "2026-10-05T03:01:36.135196+00:00",
+      "elapsed_seconds": 889.39,
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "source_bytes": 53973,
+      "prompt_sha256": "c0ba0636d7f29147f06a57359a4fef2118a3349e85297cb4f432f085c3ba5a14",
+      "output_sha256": "4713830fd4c1b7fcb0e89d444300c6a1ca064dae53d2fe54743549cba8d643b2",
+      "usage": {
+        "input_tokens": 38787,
+        "cached_input_tokens": 0,
+        "output_tokens": 29367
+      },
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "sol",
+      "pass": "correction",
+      "requested_model": "gpt-6.1-sol",
+      "verified_model": null,
+      "resolved_model": "gpt-6.1-sol",
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T03:15:48.708283+00:00",
+      "ended_at": "2026-10-05T03:35:48.753499+00:00",
+      "elapsed_seconds": 1200.041,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "0448894739f1c9ac3d8ecabd9e13b8b73aa7535447d1158f5f0ebc645b9877fe",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "astra",
+      "pass": "draft",
+      "requested_model": "gpt-6-astra",
+      "verified_model": "gpt-6-astra",
+      "resolved_model": "gpt-6-astra",
+      "evidence_kind": "session-selection",
+      "evidence_source": "Completed run official turn_context.model",
+      "completed": true,
+      "status": "verified-package",
+      "timed_out": false,
+      "started_at": "2026-10-05T02:46:50.298578+00:00",
+      "ended_at": "2026-10-05T03:03:34.084581+00:00",
+      "elapsed_seconds": 1003.783,
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "source_bytes": 43951,
+      "prompt_sha256": "c0ba0636d7f29147f06a57359a4fef2118a3349e85297cb4f432f085c3ba5a14",
+      "output_sha256": "c6f7ad095ae5a47abe06feddbbcee107093201177b6bdaf38ef334a3d696987b",
+      "usage": {
+        "input_tokens": 38723,
+        "cached_input_tokens": 0,
+        "output_tokens": 24915
+      },
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "astra",
+      "pass": "correction",
+      "requested_model": "gpt-6-astra",
+      "verified_model": null,
+      "resolved_model": "gpt-6-astra",
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T03:15:50.409497+00:00",
+      "ended_at": "2026-10-05T03:35:50.462532+00:00",
+      "elapsed_seconds": 1200.049,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "ebefb1aaf43b75f5890fb190fa047a8808592d757edbfeccb439e0519c9c4489",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "opus",
+      "pass": "draft",
+      "requested_model": "claude-opus-5-5",
+      "verified_model": null,
+      "resolved_model": null,
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T02:46:49.255339+00:00",
+      "ended_at": "2026-10-05T03:06:49.865594+00:00",
+      "elapsed_seconds": 1200.607,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "c0ba0636d7f29147f06a57359a4fef2118a3349e85297cb4f432f085c3ba5a14",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "opus",
+      "pass": "correction",
+      "requested_model": "claude-opus-5-5",
+      "verified_model": null,
+      "resolved_model": null,
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T03:15:46.829252+00:00",
+      "ended_at": "2026-10-05T03:35:47.282232+00:00",
+      "elapsed_seconds": 1200.453,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "25cf3a37b7a7a005055e692bf8bf960c9d1f84ed0cfc79187b7e93a7611c16f5",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed"
+    },
+    {
+      "lane": "fable",
+      "pass": "draft",
+      "requested_model": "claude-fable-5-1",
+      "verified_model": null,
+      "resolved_model": null,
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T02:46:49.906714+00:00",
+      "ended_at": "2026-10-05T03:06:50.284368+00:00",
+      "elapsed_seconds": 1200.373,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "c0ba0636d7f29147f06a57359a4fef2118a3349e85297cb4f432f085c3ba5a14",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed",
+      "completion_detail": "Output-token limit and CLI automatic continuation observed; no completed authored package before timeout."
+    },
+    {
+      "lane": "fable",
+      "pass": "correction",
+      "requested_model": "claude-fable-5-1",
+      "verified_model": null,
+      "resolved_model": null,
+      "evidence_kind": null,
+      "evidence_source": "No completed package; runtime selection alone does not verify an authored artifact.",
+      "completed": false,
+      "status": "no-completed-package",
+      "timed_out": true,
+      "started_at": "2026-10-05T03:15:48.321281+00:00",
+      "ended_at": "2026-10-05T03:35:48.716365+00:00",
+      "elapsed_seconds": 1200.395,
+      "source_sha256": null,
+      "source_bytes": null,
+      "prompt_sha256": "25cf3a37b7a7a005055e692bf8bf960c9d1f84ed0cfc79187b7e93a7611c16f5",
+      "output_sha256": null,
+      "usage": null,
+      "cost_estimate": null,
+      "cost_estimate_note": null,
+      "actual_cost": null,
+      "max_response_tokens": "provider-default/unexposed",
+      "completion_detail": "Output-token limit and CLI automatic continuation observed; no completed authored package before timeout."
+    }
+  ],
+  "panels": [
+    {
+      "lane": "sol",
+      "model": "gpt-6.1-sol",
+      "scene_id": "P01",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 2,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "Jewel-magenta silhouette and bright flowers read immediately at 360px; the queen remains the clear focal point.",
+        "The braced hand meets the moss and both sandals are visible, but the broad covered thigh and concealed second knee do not make the knee crossing unmistakable. Fingers and calf modelling are simplified.",
+        "The mature face looks composed but offers little dramatic nuance. Flat fill regions, angular branch junctions and uniform grain give limited transparent-watercolour or expressive crosshatched character.",
+        "Titania matches I010 in face, auburn hair, circlet, turquoise earrings and magenta/gold costume."
+      ],
+      "master_sha256": "75acb95261f0b42e16a291401cdae3c6f4e84482bbf1df231d0b0493d347ff99",
+      "preview_sha256": "aa9a091dee359deb3df811bb148e2d5fe25821fd36d328c68dda41af8ca71462",
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "verified_model": "gpt-6.1-sol",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "91946904ad1fa4db3306b22f8b2825472a16807942a9374835418c0fda9ccf07",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/sol/P01.png",
+      "render_elapsed_seconds": 3.755,
+      "eligible": true
+    },
+    {
+      "lane": "sol",
+      "model": "gpt-6.1-sol",
+      "scene_id": "P02",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "The stepping action and two distinct feet are clear at 360px. Hair and turquoise outer skirt agree on breeze direction.",
+        "The planted slipper sits near the root, but the pelvis is weakly joined to the bodice across the sash. The long lifted leg and abrupt knee transition look constructed, and the open hands are very small.",
+        "Clean jewel colours and a luminous clearing help readability; broad flat shapes, repeated flower symbols and rigid branch joints provide little delicate watercolour or anatomical volume.",
+        "Helena is recognizable against I007 through the same face, braid/clasp and costume. Her expression is alert but the torso remains stiff."
+      ],
+      "master_sha256": "2284f09f170e2fad140283183cd20f48c3fbf6e36dd71607dda87c920d5d3895",
+      "preview_sha256": "66524e9d05e1a5b15c11a290923806eb0535f3b8c0a4d914f9942b7de1edc85c",
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "verified_model": "gpt-6.1-sol",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "28eb4edf025274698704a6c6e321cd82c5742b2b88990c06151a50e9e158e394",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/sol/P02.png",
+      "render_elapsed_seconds": 2.685,
+      "eligible": true
+    },
+    {
+      "lane": "sol",
+      "model": "gpt-6.1-sol",
+      "scene_id": "P03",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "The large mature face, emerald costume, bright lilies and uncluttered silhouette survive the phone reduction well.",
+        "An offset gaze, uneven brows and slightly open lips suggest attention, although the turn remains close to frontal and the facial planes are shallow.",
+        "The collarbone hand is disproportionately small and the thick bent forearm lacks convincing joint structure. Hair curls are mainly thin looping outlines over a solid mass.",
+        "Hermia matches I007 in skin tone, facial design, dark hair, flower pin and emerald/ruby palette; the turquoise drape shifts from shoulder to a less intelligible hip attachment there."
+      ],
+      "master_sha256": "beb40a7ed5beed27551638446664d08771ef2279b21457ab34939c8ea842cccd",
+      "preview_sha256": "2a9578168396fbba18a913fed20eb9b6e6b004f0b1519ef198db6913f95bb2a5",
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "verified_model": "gpt-6.1-sol",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "05ae67000b716224fc7f3bb31387831d5f347d8bfc3ee3e4fd45e27155dbd607",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/sol/P03.png",
+      "render_elapsed_seconds": 2.686,
+      "eligible": true
+    },
+    {
+      "lane": "sol",
+      "model": "gpt-6.1-sol",
+      "scene_id": "P04",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 3,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "Both adult figures and the separating fallen branch remain clear at phone size. Colourful blue moonlight preserves the costume distinction and height difference.",
+        "Opposed gazes and open palms convey conversation, though upright frontal torsos and restrained mouths make the disagreement mild. Tiny hands and mostly hidden feet reduce physical specificity.",
+        "Contours are clean but trees and dresses remain flat, with repetitive foliage and little convincing watercolour layering.",
+        "Helena agrees well with I004. Hermia agrees with I005 in face, skin, hair and palette, although the turquoise shoulder drape becomes an unexplained oval form at her hip."
+      ],
+      "master_sha256": "55af6af44ea88666a2dc37235cb0e00e526138f03148abbe3a950cbe400537b2",
+      "preview_sha256": "eb52e7e6e11d1c892192ba6a2d08c9f3c4842737b1453522cb288554e02b9b52",
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "verified_model": "gpt-6.1-sol",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "a4fd82babe8e3e82f4582e504bf60ca02419d9f44cedb2ff263ca97a317fc6ba",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/sol/P04.png",
+      "render_elapsed_seconds": 2.694,
+      "eligible": true
+    },
+    {
+      "lane": "sol",
+      "model": "gpt-6.1-sol",
+      "scene_id": "P05",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 2
+      },
+      "comments": [
+        "The broad asymmetric canopy, abundant jewel flowers and large queen create a readable court scene at 360px. The secondary branch figure reads as an adult and stays fully clothed.",
+        "A bright gap below Titania’s sash weakens the torso-to-pelvis connection. The split skirt reads like two trouser-shaped columns, with little credible wrap-gown drape and only a small visible sandal.",
+        "Puck’s seated support is legible, but the bare-shouldered fitted top departs from the specified tunic, and the small face provides limited evidence of his specified amused character. Limbs and hands remain simplified.",
+        "Titania’s face, hair, circlet, earrings and magenta/gold identifiers match I001. Flat foliage and rigid branch bands limit painted craft despite the strong colour."
+      ],
+      "master_sha256": "9bb7e2746c8525e15e3aa41689764d7f0ee5c4b513a41c3a01dbac1779fda557",
+      "preview_sha256": "85a12581bd7f2fec309f55de2c95bd9cd6047424e9a36e36f70d95b66792ff53",
+      "source_sha256": "c05a04327cf7273c41f6535a1a941650d3de28727458ba416042a8a1503f2746",
+      "verified_model": "gpt-6.1-sol",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "f71d4aaf71cc66101e062a107d500c75588a367a2f87a52302e6dfd66170ce6f",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/sol/P05.png",
+      "render_elapsed_seconds": 2.672,
+      "eligible": true
+    },
+    {
+      "lane": "astra",
+      "model": "gpt-6-astra",
+      "scene_id": "P01",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 2,
+        "character_continuity": 4,
+        "technical_brief_compliance": 2
+      },
+      "comments": [
+        "The bright gown, luminous clearing and asymmetric root seat provide a clear full-body phone silhouette.",
+        "Two legs visibly cross below the skirt, but a background-coloured waist gap disconnects bodice and hips. Neither hand convincingly braces on the seat; both appear suspended. Stiff feet and an offset ground shadow weaken physical support.",
+        "Broad planar cloth folds and geometrically joined branches outweigh the subtle grain. Long horizontal facial lines flatten the eyes and the expression is largely neutral.",
+        "Titania retains the face, circlet, earrings, hair and gown identifiers seen in I009."
+      ],
+      "master_sha256": "3f6a57efd3fcd333a8f217403c62563e9019307d372ec76fb32439a0846bc38b",
+      "preview_sha256": "6d26e6879e17a227f097519a4d057c93c93e0db4477e877da129474beec22092",
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "verified_model": "gpt-6-astra",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "58e0ee32285907eb526ef734825ceaa0ea355a9c4b20436746cb060401ebe5df",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/astra/P01.png",
+      "render_elapsed_seconds": 2.671,
+      "eligible": true
+    },
+    {
+      "lane": "astra",
+      "model": "gpt-6-astra",
+      "scene_id": "P02",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 3,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "The lifted foot, planted slipper and leftward hair/overskirt movement make the step legible at phone size; coverage is maintained.",
+        "The support line is plausible, but the lifted knee and shin have coarse contour transitions, slippers are small, and square wrist joins make the hands look attached as separate pieces.",
+        "Sapphire and turquoise are vivid; angular hair, flat cloth facets and sparse organic bark detail limit painted delicacy. The open mouth adds animation without much specific intent.",
+        "The honey hair, temple braid, sapphire clasp, long face and blue/turquoise/gold costume recur in I008."
+      ],
+      "master_sha256": "a19e60e207deade3dd8d0fd7caa338967b06345b3d70f259554c4eb9fbb57283",
+      "preview_sha256": "dc390b3de074e0c7c5949d5a317d9d7f1e5138efeb515ea8a9e90c2369f1aca8",
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "verified_model": "gpt-6-astra",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "9b5c643abb845dbf528542f772c7ff6fb653c2d540998f18e73b02d351db7d16",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/astra/P02.png",
+      "render_elapsed_seconds": 2.687,
+      "eligible": true
+    },
+    {
+      "lane": "astra",
+      "model": "gpt-6-astra",
+      "scene_id": "P03",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "The mature three-quarter face is dominant and readable at 360px; sideways eyes, raised brow and parted lips communicate listening.",
+        "The collarbone gesture supports the scene, but rectangular wrist seams, splayed planar fingers and the lower hand hovering beside the bank weaken natural contact. Angular sleeve pieces feel rigid.",
+        "The pool and flowers supply clear colour contrast, but star-like lilies, hard facial planes and flat curls limit the requested delicate painted observation.",
+        "Hermia retains her face, curls, ruby flower pin, skin tone and emerald/ruby costume in I008."
+      ],
+      "master_sha256": "20657ebc5bc5e4ced0f4241585a81b0c7b40cd2da0940bd8fa0dd2d343373578",
+      "preview_sha256": "4eafc70151fa16b561d25ccf801503828703089a80b95f22cac14f75042bc0ee",
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "verified_model": "gpt-6-astra",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "eefaf4cd71b1fd43e661c069565aed69924ec1238291a8ae0c566a3b031803e7",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/astra/P03.png",
+      "render_elapsed_seconds": 2.679,
+      "eligible": true
+    },
+    {
+      "lane": "astra",
+      "model": "gpt-6-astra",
+      "scene_id": "P04",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 4,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "The hand to Helena’s chest, opposing palms, furrowed brows and directed eyelines make the disagreement clear; the gestures still read at 360px.",
+        "Figure separation and colourful moonlight work well, but rectangular wrists, rigid fingers, angular sleeve panels and minimally modelled elbows retain a paper-cut construction.",
+        "The simplified branch and uniform trunk shapes do not achieve the brief’s fine organic ink-and-watercolour richness.",
+        "Helena’s braid/clasp and blue/turquoise/gold costume match I003; Hermia’s curls, pin, skin tone, face and emerald/ruby costume match I006."
+      ],
+      "master_sha256": "bd9682a48f7def8d96a381ac88579eec7ef3a1e9445870d92b55ce64736102e1",
+      "preview_sha256": "0672ed042ec19ac058d83090478056989d7792dd5d56bb35339353edade26ad3",
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "verified_model": "gpt-6-astra",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "cfbfb759221cdac8defd1a67a17903c730e99f80ae2600773ac976865bc0178d",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/astra/P04.png",
+      "render_elapsed_seconds": 2.665,
+      "eligible": true
+    },
+    {
+      "lane": "astra",
+      "model": "gpt-6-astra",
+      "scene_id": "P05",
+      "status": "reviewed",
+      "selected_pass": "draft",
+      "scores": {
+        "colour_and_painted_craft": 3,
+        "anatomy_cloth_contact": 2,
+        "composition_phone_readability": 4,
+        "expression_drama": 3,
+        "character_continuity": 4,
+        "technical_brief_compliance": 3
+      },
+      "comments": [
+        "Titania dominates the luminous clearing at phone size while the fully clothed, adult-proportioned Puck remains secondary on a branch. His jaw and facial hair reinforce maturity.",
+        "The enormous arch and roots establish forest scale, but their abrupt rectangular junctions and flat bands feel assembled rather than organically twisting.",
+        "Titania’s hands have square seams and Puck’s narrow bent legs, boots and dangling hand have weak volume/contact. Thin gold lines cross open space around the figures and distract from the finish.",
+        "Titania’s face, auburn hair, circlet, turquoise earrings and magenta/gold dress are consistent with I002. The court gesture is readable but facial drama remains generic."
+      ],
+      "master_sha256": "6e3ad35feea3593cf2154e2b03bbb2de53073377bc7d2c0c0a22e6e6307c112c",
+      "preview_sha256": "81455c6ddc3555f41ddd53da5521fcdc9de119e686a1f0a9c6178e3948320027",
+      "source_sha256": "28d861124006220b353328b1a78709da686afbe13bd3f499c091d473addfc741",
+      "verified_model": "gpt-6-astra",
+      "reason": null,
+      "master_dimensions": [
+        1920,
+        1080
+      ],
+      "decoded_pixels_sha256": "a11138702f31dab5735f0c203c10f6dc7f4280bc4b522322ea7589c7b212ffba",
+      "preview_dimensions": [
+        960,
+        540
+      ],
+      "preview": "comparisons/midsummer-five-panels/previews/astra/P05.png",
+      "render_elapsed_seconds": 2.68,
+      "eligible": true
+    },
+    {
+      "lane": "opus",
+      "model": "claude-opus-5-5",
+      "scene_id": "P01",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "opus",
+      "model": "claude-opus-5-5",
+      "scene_id": "P02",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "opus",
+      "model": "claude-opus-5-5",
+      "scene_id": "P03",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "opus",
+      "model": "claude-opus-5-5",
+      "scene_id": "P04",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "opus",
+      "model": "claude-opus-5-5",
+      "scene_id": "P05",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "fable",
+      "model": "claude-fable-5-1",
+      "scene_id": "P01",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "fable",
+      "model": "claude-fable-5-1",
+      "scene_id": "P02",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "fable",
+      "model": "claude-fable-5-1",
+      "scene_id": "P03",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "fable",
+      "model": "claude-fable-5-1",
+      "scene_id": "P04",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    },
+    {
+      "lane": "fable",
+      "model": "claude-fable-5-1",
+      "scene_id": "P05",
+      "status": "missing",
+      "selected_pass": null,
+      "scores": null,
+      "comments": [],
+      "master_sha256": null,
+      "preview_sha256": null,
+      "source_sha256": null,
+      "verified_model": null,
+      "reason": "Draft and final correction both reached the shared1200-second limit without a completed package; no verified artwork available."
+    }
+  ],
+  "fairness_limits": [
+    "Same high effort label, 1200-second window and 256KiB decoded source ceiling do not imply equal internal computation or provider response-token limits.",
+    "Claude correction schema attempts capped at 1; no fallback, paid API, extra artistic pass or coordinator drawing edit.",
+    "CLI cost estimates are list-price estimates; actual subscription charges are unexposed and recorded as null.",
+    "Missing artwork is a completion result under this protocol, not an artistic-quality score.",
+    "Technical coordinator QA was unblinded; frozen aesthetic review used a fresh reviewer with neutral images and anonymous continuity bundles. AI review is not human acceptance.",
+    "Eight outer CLI author launches are recorded, not eight provider response attempts. Fable draft and correction each hit an output-token ceiling and automatically continued internally; neither produced a completed package before the shared wall-time limit. The schema-validation cap does not suppress this separate CLI continuation behavior. Exact internal response counts are not exposed."
+  ],
+  "initial_defects": {
+    "sol": {
+      "colour_and_painted_craft": "All five are bright and colourful, with paper texture and fine ink. Broad flat fills and hard polygon-like tree joints/cloth edges dominate; use more transparent layered colour, curved organic contours and delicate hatching to suggest volume while retaining the vivid palette.",
+      "anatomy_cloth_contact": "P01: crossed knees are mostly implied by the gown, while exposed calves read parallel; make the actual knee overlap clearer. Preserve the seated hip/root support and two visible feet; refine the neck/shoulder joins and angular hands. P02: supporting heel/root contact is slightly ambiguous; make its grounding/shadow unambiguous and soften lifted knee/calf transition. P03: raised hand is small and flattened, refine joined palm/thumb/fingers. P04: wrists/palms have abrupt joins; refine conversational hands. P05: gown reads like widely separated stiff trouser legs; make it flow as continuous cloth over natural legs.",
+      "composition_phone_readability": "Whole poses, meaningful hands/feet and heads are within the safe margin in P01/P02/P04/P05; P03 is a legitimate medium portrait. All five read at 360px. Preserve figure scale and open faces. P05 forest branches have conspicuous angular splice-like joins; make its vast canopy more organically twisting and asymmetrical.",
+      "expression_drama": "P03 gaze is attentive but subtle brow/lip acting could be clearer. P04 people are distinct and face each other, but expressions are fairly calm; add adult disagreement through brows, mouth and shoulders without aggression or occlusion. Keep the confident awake queen.",
+      "character_continuity": "Titania and Helena stay recognizable across their paired scenes. Hermia P03 hair reads long straight with small loops more than chestnut curls; strengthen the fixed curls while keeping her rich warm brown face and ruby flower pin. P05 Puck reads mature but shares a soft face and long straight hair; follow his original adult angular jaw/dark curly hair/leaf ears and violet-teal tunic, trousers and boots. Do not change the fixed cast.",
+      "technical_brief_compliance": "All five rendered at 1920x1080 and t=0, no clipping, text, nudity or consent issues observed; source audit and syntax passed. Maintain exact three-file package, loop seeds and engine constraints. One complete replacement package is the only remaining creative pass."
+    },
+    "astra": {
+      "colour_and_painted_craft": "All five have vivid magenta/sapphire/emerald and luminous teal woods, paper texture and fine ink. Large flat shapes, rigid angular limb/cloth edges and branch splice-like corners weaken the requested organic watercolour feel; layer transparent pigment and soften contours with curved organic forms and delicate hatching.",
+      "anatomy_cloth_contact": "P01: crossed calves read clearly, but ensure the crossing is distinctly knee-over-knee, not only ankles. The bracing hand hovers above the mossy seat; give its palm credible contact/support and preserve two feet. P02: lifted right foot/action are clear and planted foot reads grounded; refine rigid lifted knee and pelvis/cloth shape. P03: hand at collarbone has overlapping angular finger lines; clarify five joined digits and wrist. P04: open hands and elbows are rigid; soften natural joints. P05: seated Puck support is credible but angular hips/thighs and tiny bent arms need refinement.",
+      "composition_phone_readability": "All essential pose features stay inside the safe margin and phone silhouettes read well. Preserve scale. P05 queen and Puck are distinct, but foreground roots and canopy have abrupt geometric joints; emphasize vast asymmetrical twisting branches rather than a assembled arch.",
+      "expression_drama": "The face contour lines cross eye/cheek planes like construction bars, especially P01/P02/P04/P05; remove confusing facial guide-like lines while retaining mature features. P03 should show a subtler raised brow and attentive parted lips toward the off-frame voice. P04 disagreement is readable but strengthen distinct emotional responses through adult eyebrows/mouth/shoulders.",
+      "character_continuity": "Hair colours, pins, costumes and recognizable adult identities are coherent in paired scenes. Preserve Titania36, Helena30, Hermia28 and Puck35 original designs. Puck has a mature jaw/ears and is secondary; keep that.",
+      "technical_brief_compliance": "All five rendered at1920x1080/t=0, source audit and syntax passed; no text, clipping, nudity or consent problems observed. Some fine gold/ink lines extend across the body or background without clear physical purpose (notably P01 waist and P05 hands); remove unintended stray strokes. Keep the exact three-file interface and fixed loop seeds. One complete replacement package is the only remaining creative pass."
+    },
+    "opus": {
+      "colour_and_painted_craft": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "anatomy_cloth_contact": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "composition_phone_readability": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "expression_drama": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "character_continuity": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "technical_brief_compliance": "No completed package before the shared timeout. Use this final pass to return all five complete paintings under the frozen schema and engine API. No source from another model is available or permitted."
+    },
+    "fable": {
+      "colour_and_painted_craft": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "anatomy_cloth_contact": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "composition_phone_readability": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "expression_drama": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "character_continuity": "Not assessable: no completed package or image was returned before the1200-second draft timeout.",
+      "technical_brief_compliance": "No completed package before the shared timeout. Use this final pass to return all five complete paintings under the frozen schema and engine API. No source from another model is available or permitted."
+    }
+  },
+  "correction_outcomes": {
+    "sol": "no-completed-package",
+    "astra": "no-completed-package",
+    "opus": "no-completed-package",
+    "fable": "no-completed-package"
+  }
+}
