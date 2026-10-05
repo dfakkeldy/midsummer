@@ -14,6 +14,46 @@
       "clearance_status": "text-cleared",
       "visibility": "public",
       "credit": "William Shakespeare; Dan Fakkeldy; Claude Fable 5.1; Claude Opus 5.5"
+    },
+    {
+      "id": "adaptation/pronunciation.md",
+      "path": "adaptation/pronunciation.md",
+      "sha256": "eb70298fbad78713d34e7229687d65bb4d42934aa5d183eb1a8263adec99de88",
+      "version": "frozen-edition",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; source adaptation production"
+    },
+    {
+      "id": "adaptation/pronunciation-lexicon.json",
+      "path": "adaptation/pronunciation-lexicon.json",
+      "sha256": "c9d552a6e5fba409236c161d855eeede80a182da5eea2f272ea32ce48b5a0fcf",
+      "version": "frozen-edition",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; source adaptation production"
+    },
+    {
+      "id": "source/unit-index.json",
+      "path": "source/unit-index.json",
+      "sha256": "843b46bae57299a180ec99809d27d28eadb3c4a251982e7f12435ed1d867cde1",
+      "version": "frozen-edition",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; source adaptation production"
+    },
+    {
+      "id": "adaptation/source-coverage.json",
+      "path": "adaptation/source-coverage.json",
+      "sha256": "155a017ce7d2d70e4b4830c24bb67d691eea1cf01d02eea93fa1f51254dbccc2",
+      "version": "frozen-edition",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; source adaptation production"
     }
   ],
   "excluded_media": [

@@ -11,6 +11,8 @@ jobs:
           fetch-depth: 2
       - name: Evidence and alignment contracts
         run: python3 -m unittest discover -s tests -v
+      - name: Published content and provenance
+        run: python3 tools/check_repository.py
       - name: JavaScript syntax
         run: find comparisons art/engine/src -name '*.js' -print0 | xargs -0 -r -n1 node --check
       - name: Whitespace
