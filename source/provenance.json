@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "author": "William Shakespeare",
+  "edition": "Cambridge Volume II",
+  "publication_year": 1863,
+  "editors": [
+    "William George Clark",
+    "William Aldis Wright"
+  ],
+  "metadata_url": "https://www.gutenberg.org/ebooks/45128",
+  "historical_text_url": "https://www.gutenberg.org/files/45128/45128-h/45128-h.htm",
+  "downloaded_html_sha256": "d274b45321df1312db78914cd39c840739ccf791b4d00fe789e411d86d792322",
+  "normalized_play_extract_sha256": "2aef351c28c60ae4db4c9fa830303934fdddc6f8970ee1aa572e2106e87a8e68",
+  "unit_count": 1979,
+  "acts": 5,
+  "scenes": 9,
+  "redistribution": "provenance links only; original container retained privately"
+}

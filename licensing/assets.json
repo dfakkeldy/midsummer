@@ -1,0 +1,24 @@
+{
+  "schema_version": 1,
+  "assets": [
+    {
+      "id": "adaptation-chapters",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; Claude Opus 5.5"
+    },
+    {
+      "id": "original-lyrics",
+      "license": "CC-BY-4.0",
+      "clearance_status": "text-cleared",
+      "visibility": "public",
+      "credit": "William Shakespeare; Dan Fakkeldy; Claude Fable 5.1; Claude Opus 5.5"
+    }
+  ],
+  "excluded_media": [
+    "private narration",
+    "private generated music",
+    "copyrighted pose references"
+  ]
+}

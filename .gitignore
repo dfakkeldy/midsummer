@@ -1,0 +1,16 @@
+node_modules/
+out/
+private/
+reference/
+.superpowers/
+__pycache__/
+*.pyc
+.DS_Store
+*.m4b
+*.mp3
+*.m4a
+*.wav
+*.mp4
+*.epub
+.env
+.env.*

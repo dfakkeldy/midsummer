@@ -1,0 +1,1720 @@
+{
+  "schema_version": 1,
+  "credit": {
+    "original_author": "William Shakespeare",
+    "curator": "Dan Fakkeldy",
+    "first_pass_model": "claude-fable-5-1",
+    "revision_model": "claude-opus-5-5"
+  },
+  "source": "Cambridge Volume II, 1863; Shakespeare, Clark/Wright",
+  "songs": [
+    {
+      "id": "01",
+      "title": "First Thing You See",
+      "treatment": "Moonlit UK garage pop, about 126 BPM. The flower's rule (love the first live thing you see) is the chorus and the camera's logic.",
+      "narrative_lens": "An unseen forest voice telling the story in present tense with crisp rhymed couplets. Each time someone wakes, the plot turns.",
+      "lyrics": "[Verse 1]\nFour more days till the wedding bells,\nTheseus and Hippolyta, Athens swells.\nEgeus drags Hermia up to the throne:\nwed Demetrius, the man I chose.\nShe loves Lysander. The duke is clear:\nobey, or die, or a nun's cold years.\nSo they'll slip through the wood tomorrow night\nto his aunt's, out of the law's sight.\n\n[Verse 2]\nHelena loves Demetrius; he loves her friend.\nShe tells him they're running, hoping he'll bend.\nHe races for the wood, she races behind.\nAnd Quince's craftsmen have a play in mind:\nBottom the weaver will be Pyramus,\nThisbe's lover, for the wedding feast,\nrehearsing by moonlight where nobody sees.\n\n[Chorus]\nClose your eyes, then open: the first thing you see,\nthat's who you'll love, that's who you'll be.\nMoonlight, moonlight, nobody's free,\nfirst thing you see, first thing you see.\n\n[Verse 3]\nDeep in the trees there's a fairy war,\nOberon and Titania fighting for\na boy she raises for his mother's sake,\nher friend who died. Now the seasons break,\nthe rivers flood. Oberon wants the boy;\nhe sends Puck for a flower he knows:\ndrip it on sleeping eyes, and the sleeper goes\nwild for the first live creature it sees.\n\n[Verse 4]\nHe hears Demetrius drive Helena away:\nPuck, charm that Athenian, turn his heart her way.\nHe drips the juice on his sleeping queen.\nPuck spots Athenian clothes on a man in a dream.\nWrong man. Lysander wakes to Helena's face,\nswears he loves her, leaves Hermia in that place.\nHelena thinks it's a cruel joke and flees;\nHermia wakes up alone in the trees.\n\n[Chorus]\nClose your eyes, then open: the first thing you see,\nthat's who you'll love, that's who you'll be.\nMoonlight, moonlight, nobody's free,\nfirst thing you see, first thing you see.\n\n[Verse 5]\nPuck sets a donkey's head on Bottom's own;\nthe craftsmen scatter, he sings alone.\nTitania wakes, charmed, loves the weaver on sight,\nsends fairies to serve him all through the night.\nOberon sees the slip and charms Demetrius himself.\nNow both men chase Helena: you're mocking me, she yells.\nHermia's furious, betrayed and confused,\nand the rivals stalk off to find a place to duel.\n\n[Bridge]\nPuck brings the fog, borrows each man's voice,\nleads them in circles till they've got no choice:\nfour asleep on the dew-wet ground.\nThe cure goes on Lysander's eyes alone.\nDemetrius still wears the spell.\n\n[Verse 6]\nOberon says the charmed queen gave up the boy.\nHe frees her eyes. Puck lifts the donkey head away,\nBottom's own face underneath. The fairies make peace.\nDawn horns: Theseus finds the four asleep,\noverrules Egeus: you'll marry when I do.\nLysander's cured, and back with Hermia;\nDemetrius, still enchanted, loves Helena.\nBottom wakes with a dream he can't explain\nand runs to his crew, who cheer his name.\n\n[Verse 7]\nMarried now, three couples watch the play:\na Wall, a Lion whose bloody mouth stains Thisbe's cloak.\nPyramus finds it, thinks she's dead, and stabs himself;\nshe finds him and does the same. Only actors.\nThe court heckles; Bottom sits up to offer a dance,\nand midnight sends them all to bed.\n\n[Final Chorus]\nClose your eyes, then open: the first thing you see,\nthat's who you'll love, that's who you'll be.\nMoonlight, moonlight, nobody's free,\nfirst thing you see, first thing you see.\n\n[Outro]\nFairies bless the house, Puck sweeps the door.\nPuck says, if we offended, call it a dream;\npardon us, and we'll mend.\nGive us your hands.",
+      "style_prompt": "UK garage pop, about 126 BPM. Swung two-step drums with crisp shuffled hi-hats, a deep rounded sub bass, plucked bell-like keys and soft pad chords. Clear, bright female lead sung close and fairly dry in the verses so names and plot turns stay intelligible; light doubling only on line endings. Verses stay lean: drums, bass and one key line. Chorus opens wide with stacked harmonies, a brighter chord lift and a sub drop on the downbeat. Bridge thins to a filtered beat, keys and voice, then a short two-bar instrumental gap. Final chorus adds an extra harmony layer and a short synth answer phrase. Clean, close, uncluttered mix with the vocal forward.",
+      "exclude_styles": "heavy autotune, rap verses, distorted vocals, washed-out reverb, EDM festival build-ups, comedic voices",
+      "vocal_gender": "Female",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "Egeus drags Hermia up to the throne:",
+          "action": "Theseus and Hippolyta at court; Egeus presents Hermia, Demetrius and Lysander; Theseus states death or a nun's life; Lysander and Hermia alone plan to flee to his aunt's.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0131",
+            "I.1.u0132–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She tells him they're running, hoping he'll bend.",
+          "action": "Helena alone resolves to tell Demetrius; cut to Quince reading the cast list, Bottom handed Pyramus, plan to rehearse in the palace wood.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "Oberon and Titania fighting for",
+          "action": "Oberon and Titania meet and quarrel; flooded fields and frost on roses as Titania describes them; she refuses the boy; Oberon sends Puck for the flower.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0191"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Wrong man. Lysander wakes to Helena's face,",
+          "action": "Invisible Oberon watches Demetrius spurn Helena and gives Puck the order; Oberon squeezes the flower on sleeping Titania; Puck anoints Lysander by his Athenian clothes; Helena wakes him; he leaves; Hermia wakes from her nightmare alone.",
+          "source_refs": [
+            "II.1.u0192–II.1.u0277",
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Puck sets a donkey's head on Bottom's own;",
+          "action": "Rehearsal in the clearing; Bottom steps into the brake and returns with a donkey head on his human body; craftsmen flee; Titania wakes enchanted and summons her four fairies to serve him.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Oberon sees the slip and charms Demetrius himself.",
+          "action": "Oberon realizes the mistake and anoints sleeping Demetrius; both men woo Helena, who suspects mockery; Hermia and Helena quarrel; the men leave to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "The cure goes on Lysander's eyes alone.",
+          "action": "Fog falls; Puck imitates each rival's voice and leads them apart; all four collapse asleep; Puck squeezes the remedy on Lysander's eyes only.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Oberon says the charmed queen gave up the boy.",
+          "action": "Oberon tells Puck that the enchanted Titania handed over the boy. This is his report of an offstage event; any image of it must be a labeled reconstruction, not her free, unenchanted consent. On screen: Oberon releases Titania; Puck lifts off the donkey head, leaving Bottom's own head unharmed; the fairy pair dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "overrules Egeus: you'll marry when I do.",
+          "action": "Horns wake the four; Theseus overrules Egeus and orders the couples wed alongside him; Demetrius credits 'some power'. The weddings happen offstage. Bottom wakes alone, then bursts in on his relieved troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "Pyramus finds it, thinks she's dead, and stabs himself;",
+          "action": "Married couples watch the craftsmen in the hall: Wall, Lion shaking the mantle, Pyramus's mistaken grief and staged stab, Thisbe's staged stab; Bottom sits up; courtiers joke; Bergomask dance; midnight.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "Puck says, if we offended, call it a dream;",
+          "action": "Puck sweeps; Oberon and Titania bless the house and couples; Puck addresses the audience with a conditional dream, pardon and applause offer.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "Compressed: Philostrate, the other craftsmen's names, Moonshine's role and Theseus's speech on imagination are folded into short phrases. 'Nobody's free' and 'wild for the first live creature' are the narrator's generalization of the flower's rule. 'Bottom sits up to offer a dance' compresses his offer of an epilogue or a Bergomask. Demetrius is left enchanted, and the humans never learn about the flower.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Wild for the first live creature' paraphrases Oberon's 'madly dote'.",
+          "'Hermia's furious, betrayed and confused' compresses a long four-way quarrel."
+        ]
+      }
+    },
+    {
+      "id": "02",
+      "title": "Mine Own and Not Mine Own",
+      "treatment": "Intimate art pop and indietronica, about 86 BPM. Helena's line about finding Demetrius 'like a jewel, mine own and not mine own' becomes an open question.",
+      "narrative_lens": "The narrator speaks to Helena as 'you' through the whole story. The chorus is in Helena's own voice.",
+      "lyrics": "[Verse 1]\nYou loved him first, Helena,\nbefore he turned his oaths toward Hermia.\nNow Theseus counts four days to wed Hippolyta,\nand Egeus tells the court his daughter must obey:\nmarry Demetrius, or the law decides,\ndeath, or a nun's life under a barren moon.\nShe loves Lysander. Tomorrow night\nthey'll slip through the wood to his aunt's, past the rule.\n\n[Verse 2]\nThey trust you with the secret as they go.\nYou carry it to Demetrius, hoping he'll be grateful;\nhe runs into the wood for Hermia, and you run after him.\nThat same night Quince's workmen gather in the trees\nto rehearse a play for the wedding:\nBottom the weaver as Pyramus,\nkept from his Thisbe by a wall.\n\n[Chorus]\nMine own, and not mine own,\na jewel I found but never earned.\nMine own, and not mine own,\nwho lit the lamp in him when he turned?\n\n[Verse 3]\nIn that wood a fairy king and queen are at war\nover a boy whose mother, Titania's friend, has died;\nshe keeps him for her sake. Their quarrel floods the fields\nand puts frost on summer roses. Oberon wants the boy.\nHe sends Puck for a flower: a drop on sleeping eyes,\nand the waker loves the first live thing it sees.\n\n[Verse 4]\nHe watches Demetrius threaten you and go,\nand softens: Puck, charm that Athenian for her.\nHe paints his sleeping queen. Puck finds Athenian clothes:\nLysander, not Demetrius. The wrong eyes.\nYou wake him; he swears he loves you, leaves her sleeping.\nYou think it's cruel mockery, and run.\nHermia wakes from a serpent dream, alone.\n\n[Chorus]\nMine own, and not mine own,\na jewel I found but never earned.\nMine own, and not mine own,\nwho lit the lamp in him when he turned?\n\n[Verse 5]\nPuck gives Bottom a donkey's head; his friends flee.\nTitania wakes, enchanted, and adores him; fairies wait on him.\nOberon sees the mistake and touches Demetrius' eyes himself.\nNow both men swear love to you. You're sure it's a game,\nand Hermia's in on it; she thinks you stole her love.\nThe men walk off to duel.\n\n[Bridge]\nPuck pulls down the fog and borrows their voices,\nleads them apart till all four fall asleep.\nHe cures Lysander's eyes. Only his.\nDemetrius still wears the flower.\n\n[Verse 6]\nOberon says the charmed queen gave him the boy.\nHe frees her eyes; Puck lifts the donkey head from Bottom's own,\nand the fairy rulers make their peace.\nHorns: Theseus finds you sleeping and overrules Egeus;\nthree couples will marry, his among them.\nLysander loves Hermia again. Demetrius, still enchanted,\nsays some power brought him back to you, Helena.\nBottom wakes, can't tell his dream, and finds his friends.\n\n[Verse 7]\nMarried now, you watch the workmen's play:\nlovers whisper through a Wall; a Lion stains Thisbe's dropped cloak;\nPyramus thinks she's dead and stabs himself;\nshe finds him and does the same. Only acting.\nBottom sits up; the court laughs; the players dance.\n\n[Final Chorus]\nMine own, and not mine own,\na jewel I found but never earned.\nMine own, and not mine own,\nwho lit the lamp in him when he turned?\n\n[Outro]\nFairies bless the beds while the house sleeps.\nPuck asks: if we offended, think it a dream,\nand give us your hands.\nMine own, and not mine own.",
+      "style_prompt": "Art pop with indietronica textures, about 86 BPM. Warm, low female lead sung close to the mic, conversational and unhurried in the verses with clear consonants. Electric piano chords, rounded analog synth bass, sparse drum machine with soft clap and brushed-sounding hats. Verses leave air between phrases; the chorus rises melodically, adds a slow string-like pad and layered self-harmonies, then falls back to piano. Bridge drops the beat to a soft pulse and voice. Short instrumental breath before the final chorus, which doubles the lead an octave up; brief bare piano outro. Intimate, clear close mix.",
+      "exclude_styles": "belting, heavy autotune, trap hi-hat rolls, big room drops, distorted guitars, choir overload",
+      "vocal_gender": "Female",
+      "pronunciation": [
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "and Egeus tells the court his daughter must obey:",
+          "action": "Theseus and Hippolyta receive Egeus's complaint; Theseus states the law's two penalties; Lysander and Hermia plan their flight.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "You carry it to Demetrius, hoping he'll be grateful;",
+          "action": "Hermia and Lysander confide in Helena; she resolves to tell Demetrius for thanks; craftsmen receive parts, Bottom as Pyramus, with a wall in the story.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "In that wood a fairy king and queen are at war",
+          "action": "Oberon and Titania quarrel; Titania tells of her votaress friend who died bearing the boy; disordered seasons; Oberon describes the flower and sends Puck.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0191"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Lysander, not Demetrius. The wrong eyes.",
+          "action": "Demetrius threatens and leaves Helena; Oberon orders Puck; Oberon charms Titania; Puck anoints Lysander; Helena wakes him and flees his vows; Hermia wakes alone.",
+          "source_refs": [
+            "II.1.u0192–II.1.u0277",
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Puck gives Bottom a donkey's head; his friends flee.",
+          "action": "Rehearsal interrupted; Bottom, human body with a donkey head, sings; Titania wakes enchanted and assigns fairies to serve him.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Now both men swear love to you. You're sure it's a game,",
+          "action": "Oberon anoints Demetrius; both men woo Helena; she accuses all three of mockery; Hermia calls her a thief of love; the men leave to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "He cures Lysander's eyes. Only his.",
+          "action": "Fog; Puck's mimicked voices separate the rivals; four sleepers; remedy squeezed on Lysander only, Demetrius untouched.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Oberon says the charmed queen gave him the boy.",
+          "action": "Oberon's report to Puck of an offstage handover. Do not stage it as a fresh scene; if shown, label it a reconstruction while Titania was still enchanted. Titania is released; Puck removes the donkey head from Bottom's human head; Oberon and Titania dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "says some power brought him back to you, Helena.",
+          "action": "Hunt party finds the sleepers; Demetrius speaks of 'some power'; Theseus overrules Egeus; Helena's 'mine own, and not mine own'. The weddings themselves are not shown. Bottom wakes and rejoins his troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "Pyramus thinks she's dead and stabs himself;",
+          "action": "Married couples watch Wall, Lion and the stained mantle; Pyramus and Thisbe die only as stage roles; Bottom rises; court comments; dance.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "Puck asks: if we offended, think it a dream,",
+          "action": "Fairy blessing of the sleeping house; Puck's conditional epilogue to the audience, asking pardon and hands.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "Speaking to Helena as 'you' is a narrative device. Helena never learns about the flower, and the lyric never says she does. 'Who lit the lamp in him' is the narrator's question about Demetrius's charm, which is never removed. 'Puts frost on summer roses' comes from Titania's account of the disordered seasons. The height insults and 'serpent dream' details are compressed.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Oberon… touches Demetrius' eyes himself' simplifies how he applies the juice in the stage direction and speech.",
+          "'Fairies bless the beds' compresses the blessing of the house and the couples."
+        ]
+      }
+    },
+    {
+      "id": "03",
+      "title": "Never Ran Smooth",
+      "treatment": "Cinematic electronic metal, about 94 BPM. Lysander's 'the course of true love never did run smooth' becomes a defiant chorus. The heaviest dynamics are saved for the quarrel and the fog.",
+      "narrative_lens": "Terse, scene-stamped fragments ('Athens.', 'The wood.', 'Dawn.') with a Hermia-leaning tone. The chorus 'we' is a collective voice for the lovers.",
+      "lyrics": "[Verse 1]\nAthens. A wedding in four days,\nTheseus and Hippolyta.\nEgeus drags his daughter in:\nHermia, take Demetrius.\nShe won't. She loves Lysander.\nSo the duke reads out the law:\ndie, or wear a nun's veil all your life.\nThen the lovers plan to run\nthrough the wood to his aunt's,\nwhere Athens' law can't follow.\n\n[Verse 2]\nHelena loves Demetrius;\nhe wants Hermia instead.\nShe tells him of the flight\nfor one kind word.\nHe hunts the lovers;\nshe hunts him.\nAnd Quince calls out his workmen:\nBottom gets Pyramus.\nThey'll rehearse their tragedy\nfor the duke's wedding night\ndeep in the same dark wood.\n\n[Chorus]\nNever ran smooth, never ran smooth,\ntrue love was never going to run smooth.\nThrough the wood, through the fog, through the night,\nit never ran smooth, but we ran.\n\n[Verse 3]\nThe wood. A war of fairies.\nOberon wants a boy\nTitania raises for his mother,\nher friend who died.\nShe won't let him go.\nTheir quarrel drowns the fields,\nfrost lands on summer roses.\nOberon sends Puck for a flower:\ndrip it on sleeping eyes,\nthey'll love the first live thing they see.\n\n[Verse 4]\nHe hears Demetrius drive Helena off:\nPuck, charm that Athenian.\nHe streaks his sleeping queen himself.\nPuck finds Athenian clothes,\nLysander, not Demetrius.\nWrong eyes. Helena wakes him;\nhe swears he loves her now\nand leaves Hermia asleep.\nHelena calls it mockery and flees.\nHermia wakes to an empty wood.\n\n[Chorus]\nNever ran smooth, never ran smooth,\ntrue love was never going to run smooth.\nThrough the wood, through the fog, through the night,\nit never ran smooth, but we ran.\n\n[Verse 5]\nPuck plants a donkey's head on Bottom.\nHis friends scream and scatter.\nTitania wakes, enchanted,\nand loves him; fairies serve him.\nOberon sees the error,\ncharms Demetrius himself.\nTwo men vowing love to Helena;\nshe's sure it's a cruel joke.\nHermia, robbed and called a puppet,\nturns on her oldest friend.\nThe rivals leave to fight.\n\n[Bridge]\nFog. Black fog.\nPuck throws each rival's voice,\nleads them apart in circles\ntill they drop. Four asleep.\nCure on Lysander's eyes.\nOnly his.\nDemetrius stays enchanted.\n\n[Verse 6]\nOberon says the charmed queen gave up the boy.\nHe frees her eyes.\nPuck lifts the donkey head;\nBottom's own face returns.\nThe fairies make their peace.\nDawn. Horns. Theseus finds four asleep,\noverrules Egeus: three weddings, his and theirs.\nLysander, cured, is Hermia's again.\nDemetrius, still under the flower,\nloves Helena.\nBottom wakes, can't say his dream,\nruns back to his crew.\n\n[Verse 7]\nNight. Three couples, wed, watch the play.\nA talking Wall. A Lion stains Thisbe's cloak;\nPyramus thinks she's dead,\nstabs himself; she does the same.\nOnly actors falling.\nBottom sits up. The court laughs.\nTwo players dance; then midnight.\n\n[Final Chorus]\nNever ran smooth, never ran smooth,\ntrue love was never going to run smooth.\nThrough the wood, through the fog, through the night,\nit never ran smooth, but we ran.\n\n[Outro]\nFairies bless the house.\nPuck says, if we offended,\ncall it a dream, and pardon us.\nGive us your hands.\nIt never ran smooth, but we ran.",
+      "style_prompt": "Electronic metal with cinematic dynamics, about 94 BPM. Clean, expressive female lead, restrained and close in the verses over a minor piano figure, low sustained palm-muted guitars, pulsing synth bass and half-time drums. Choruses hit hard: full kit, wide distorted guitar chords, sub drop, strong chest-voice belt with stacked harmonies, lyrics kept forward and intelligible. Bridge strips to piano, low drone and a whispered double for the fog, then a rolling tom build. Short deliberate silence before the final chorus, which adds a soaring counter-melody. Tight, punchy mix with clear diction.",
+      "exclude_styles": "screamed vocals, growls, blast beats, guitar solos over vocals, muddy low end, lo-fi",
+      "vocal_gender": "Female",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "Egeus drags his daughter in:",
+          "action": "Stark court: Theseus and Hippolyta, Egeus's demand, Hermia's refusal, the law's choices; then Lysander's line about true love and the flight plan.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She tells him of the flight",
+          "action": "Helena resolves to tell Demetrius; craftsmen cast Pyramus and Thisbe and agree to meet in the wood.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "The wood. A war of fairies.",
+          "action": "Oberon and Titania clash; Titania describes floods and frost and refuses the boy for his dead mother's sake; Oberon sends Puck for the flower.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0191"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Lysander, not Demetrius.",
+          "action": "Oberon overhears Demetrius reject Helena and orders Puck; Oberon charms Titania; Puck anoints Lysander; Helena wakes him; Hermia's nightmare and empty clearing.",
+          "source_refs": [
+            "II.1.u0192–II.1.u0277",
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Puck plants a donkey's head on Bottom.",
+          "action": "Rehearsal; Bottom reappears with a donkey head on his man's body; craftsmen flee; Titania wakes enchanted, fairies attend him.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Two men vowing love to Helena;",
+          "action": "Oberon anoints Demetrius; double wooing; Helena's charge of mockery; 'puppet' insult and Hermia's fury; rivals exit to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Cure on Lysander's eyes.",
+          "action": "Black fog; Puck's voices pull the rivals apart; four sleep; remedy on Lysander's eyes only.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Oberon says the charmed queen gave up the boy.",
+          "action": "Oberon's spoken report of an offstage handover made while Titania was enchanted. Keep it as narration or a labeled reconstruction. Titania is released; Puck removes the donkey head and Bottom's own face returns; fairies reconcile.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "overrules Egeus: three weddings, his and theirs.",
+          "action": "Horns; Theseus overrules Egeus and orders the couples wed with him. The weddings are not shown. Bottom wakes and returns to his crew.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "A talking Wall. A Lion stains Thisbe's cloak;",
+          "action": "Wedding-night performance: Wall, Lion and the mantle, Pyramus's mistaken grief and stage stab, Thisbe's stage stab; actors rise; court laughs; dance.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "call it a dream, and pardon us.",
+          "action": "Fairy blessing; Puck's conditional dream, pardon and applause appeal.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The chorus 'we' is an interpretive collective voice, not a single character speaking. The clipped scene stamps ('Athens.', 'Night.') are a stylistic frame. 'Turns on her oldest friend' compresses Hermia's attack on Helena after being called a puppet. Hermia's dream of a serpent is reduced to 'an empty wood'. Demetrius stays under the flower, and the lyric says so.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Die, or wear a nun's veil' paraphrases 'livery of a nun' and 'Diana's altar'.",
+          "'They dance till midnight' compresses the Bergomask and Theseus's midnight dismissal."
+        ]
+      }
+    },
+    {
+      "id": "04",
+      "title": "Lord, What Fools",
+      "treatment": "Alternative hip hop with a pop trap frame, about 96 BPM. Puck raps the whole story in first person. The sung refrain is built on his own line about mortals.",
+      "narrative_lens": "Puck as an amused, articulate narrator. Narrating the Athens scenes he never witnessed is storyteller license.",
+      "lyrics": "[Verse 1]\nListen. Four days till Theseus weds Hippolyta,\nthen Egeus storms the court with his daughter, Hermia:\nshe weds Demetrius, his pick, or she meets the law,\ndeath, or a nun's cell, cold moon and all.\nShe loves Lysander, so the pair make a plan:\ntomorrow night, through my wood, hand in hand,\nto his aunt's house, out where Athens can't reach.\n\n[Verse 2]\nHelena loves Demetrius; he swore to her once,\nthen switched to Hermia. So she spills what she knows,\nhoping for thanks. He chases them; she chases him.\nMeanwhile Quince rounds up his working men,\nBottom the weaver cast as Pyramus,\nrehearsing Pyramus and Thisbe for the wedding,\nin my wood by moonlight. Bless 'em.\n\n[Chorus]\nLord, what fools these mortals be,\nrunning through the moonlight after what they can't see.\nLord, what fools, what fools these mortals be,\nand the biggest fool's the one who swears he's free.\n\n[Verse 3]\nMy king and queen? At war. She keeps a boy,\nher dead friend's son, and she won't hand him over.\nTheir fight floods fields, puts frost on the roses.\nSo he sends me flying for a flower:\njuice on sleeping eyes, you'll dote\non the first live thing you notice.\nHe hears Demetrius tell Helena to get lost:\nPuck, charm that Athenian. Done. I'm gone.\n\n[Verse 4]\nHe streaks the queen's eyes while she sleeps in her bower.\nMe? I find Athenian clothes on a sleeping man,\na girl lying further off. Job done. Wrong man.\nThat was Lysander. Helena shakes him awake;\nhe swears he loves her, leaves Hermia cold.\nHelena thinks he's mocking her and runs;\nHermia wakes alone, screaming his name.\n\n[Chorus]\nLord, what fools these mortals be,\nrunning through the moonlight after what they can't see.\nLord, what fools, what fools these mortals be,\nand the biggest fool's the one who swears he's free.\n\n[Verse 5]\nThen I catch the players rehearsing near her bed,\ngive Bottom a donkey's head, just the head,\nand his crew flies like geese at a gunshot.\nTitania wakes, charmed, loves him, has her fairies wait on him.\nMy king sees my slip and charms Demetrius himself.\nNow two men chase Helena; she says it's a cruel joke.\nHermia thinks she's been robbed. The boys go off to duel.\n\n[Bridge]\nSo I roll in the fog, throw each rival's voice,\nlead 'em up and down till they drop.\nFour on the ground. Cure on Lysander's eyes,\nonly his. Demetrius stays charmed. Not my call.\n\n[Verse 6]\nMy king says the queen, still charmed, gave up the boy.\nHe frees her eyes; I pull the donkey head off,\nBottom's own face safe underneath. King and queen dance.\nHorns. Theseus finds the four, overrules Egeus.\nLysander's cured and back with Hermia;\nDemetrius, still charmed, loves Helena;\nthree couples wed, the duke's among them.\nBottom wakes, can't explain his dream, runs to his crew.\n\n[Verse 7]\nFeast night, three couples watch the play:\na Wall with a chink, a Lion stains Thisbe's cloak,\nPyramus thinks she's dead and stabs himself;\nshe finds him, does the same. Fake blades.\nBottom pops back up; the court cracks jokes; two players dance.\n\n[Final Chorus]\nLord, what fools these mortals be,\nrunning through the moonlight after what they can't see.\nLord, what fools, what fools these mortals be,\nand the biggest fool's the one who swears he's free.\n\n[Outro]\nThen we fairies bless the house and every bed.\nIf we shadows have offended, call it a dream;\npardon us, and give me your hands,\nand Robin makes amends. Lord, what fools.",
+      "style_prompt": "Alternative hip hop with a pop trap frame, about 96 BPM. Warm, articulate male melodic rap in the verses, relaxed and playful, every name and cause clearly enunciated. Punchy drums with tight snare, rolling hats and a restrained 808 sitting low. Night-forest atmosphere: detuned music-box motif, soft pads, occasional reversed swells. The chorus switches to full singing with layered harmonies and a brighter chord change. Bridge thins to pad, sub and a close, half-whispered vocal. Short beat dropout before the final chorus, which adds a light gang-vocal double. Clean, dry vocal up front.",
+      "exclude_styles": "aggressive drill, distorted 808s, heavy autotune, mumbled delivery, crowd noise, horror effects",
+      "vocal_gender": "Male",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        },
+        {
+          "name": "Robin",
+          "cue": "ROB-in"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "then Egeus storms the court with his daughter, Hermia:",
+          "action": "Puck shown as an invisible onlooker (storyteller license) at Theseus and Hippolyta's court; Egeus's demand; Theseus's sentence; the lovers' plan.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "hoping for thanks. He chases them; she chases him.",
+          "action": "Helena decides to inform Demetrius; Quince casts the play, Bottom as Pyramus; meeting set in the wood.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "My king and queen? At war. She keeps a boy,",
+          "action": "Puck's own scene with a fairy, then Oberon and Titania's quarrel and ruined seasons; Puck flies for the flower.",
+          "source_refs": [
+            "II.1.u0001–II.1.u0191"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "a girl lying further off. Job done. Wrong man.",
+          "action": "Oberon's order after overhearing Demetrius; Oberon charms Titania; Puck anoints Lysander; Helena wakes him; Hermia's lonely waking.",
+          "source_refs": [
+            "II.1.u0192–II.1.u0277",
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "give Bottom a donkey's head, just the head,",
+          "action": "Puck watches the rehearsal, fixes a donkey head on Bottom's human body; craftsmen scatter; Titania wakes enchanted; Puck reports to Oberon.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "My king sees my slip and charms Demetrius himself.",
+          "action": "Oberon applies the juice to Demetrius; Puck says 'Lord, what fools'; double wooing, Helena's accusation, Hermia's anger, rivals leave to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "So I roll in the fog, throw each rival's voice,",
+          "action": "Puck covers the sky with fog and imitates each rival; four sleepers; remedy on Lysander only; Puck's proverb.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "My king says the queen, still charmed, gave up the boy.",
+          "action": "Oberon tells Puck about an offstage handover while Titania was enchanted. Show only as his report or a clearly labeled reconstruction. Titania is released; Puck takes off the donkey head, leaving Bottom's own head intact; the fairies dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Horns. Theseus finds the four, overrules Egeus.",
+          "action": "Hunt wakes the lovers; Theseus overrules Egeus and sets three weddings, which happen offstage. Bottom's waking speech; he reunites with his troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "a Wall with a chink, a Lion stains Thisbe's cloak,",
+          "action": "Married couples watch Wall's chink, Lion and the bloodied mantle, two staged stabbings, Bottom sitting up, courtly jokes, Bergomask.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "If we shadows have offended, call it a dream;",
+          "action": "Puck with broom; Oberon and Titania's blessing; Puck asks pardon and applause as an offer to the audience.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "Puck narrating the court scenes is storyteller license. 'The biggest fool's the one who swears he's free' is Puck's commentary and points toward Demetrius without the humans knowing. 'Not my call' is accurate: Oberon told Puck to cure Lysander only. 'Flies like geese at a gunshot' paraphrases Puck's own report. 'Bless 'em' and 'Lord, what fools' are his attitude, not changes to any action.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "Oberon is called 'my king' rather than named in the lyric.",
+          "'Screaming his name' heightens Hermia's calling for Lysander."
+        ]
+      }
+    },
+    {
+      "id": "05",
+      "title": "Before the First Cock Crow",
+      "treatment": "Woodland future garage, about 122 BPM. Oberon's deadline (meet him 'ere the first cock crow', with the lark heard at dawn) becomes a countdown through the night.",
+      "narrative_lens": "A soft, nocturnal narrator who opens each verse with a time stamp (Daylight, Midnight, Later, Small hours, Grey light, Wedding night).",
+      "lyrics": "[Verse 1]\nDaylight in Athens. Theseus counts four days\ntill he weds Hippolyta. Then Egeus makes his case:\nHermia must wed Demetrius,\nor die, or live her whole life as a nun.\nShe loves Lysander. Whispering, they choose:\nmeet in the wood tomorrow night,\nthen on to his aunt's, beyond the law.\n\n[Verse 2]\nHelena loves Demetrius, who left her for Hermia.\nShe tells him the plan, hoping he'll be grateful.\nNightfall: he hunts the lovers; she hunts him.\nOut the same gate, Quince leads his craftsmen\nto rehearse a play for the wedding feast,\nPyramus and Thisbe, Bottom the weaver as Pyramus.\n\n[Chorus]\nBefore the first cock crow, before the lark,\nset it right, set it right in the dark.\nEvery heart's a wager, every eye's a mark,\nbefore the first cock crow, before the lark.\n\n[Verse 3]\nMidnight. The fairy king and queen collide\nover a boy she raises for her dead friend's sake.\nTheir quarrel swells the rivers, scrambles the seasons.\nOberon wants the boy. He sends Puck for a flower:\none drop on sleeping lids, and the sleeper wakes\nin love with the first live creature in sight.\nHe hears Demetrius spurn Helena: charm that man.\n\n[Verse 4]\nLater. Oberon streaks his sleeping queen.\nPuck finds a man asleep in Athenian clothes,\nLysander, not Demetrius, and charms the wrong eyes.\nHelena shakes him; he wakes, swears he loves her,\nleaves Hermia lying on the ground.\nHelena thinks he mocks her, and runs;\nHermia wakes, calls his name, hears nothing.\n\n[Chorus]\nBefore the first cock crow, before the lark,\nset it right, set it right in the dark.\nEvery heart's a wager, every eye's a mark,\nbefore the first cock crow, before the lark.\n\n[Verse 5]\nSmall hours. Puck crowns Bottom with a donkey's head;\nthe craftsmen flee. Titania wakes, enchanted,\nloves him, and sets her fairies to serve him.\nOberon finds the error and charms Demetrius himself.\nTwo men court Helena now; she calls it mockery.\nHermia feels betrayed. The rivals head off to duel.\n\n[Bridge]\nPuck drops the fog, speaks in each man's voice,\nleads them apart until they fall.\nFour asleep. He cures Lysander's eyes, only his;\nDemetrius still wears the flower.\n\n[Verse 6]\nGrey light. Oberon says the charmed queen gave up the boy.\nHe frees her; Puck lifts the donkey head from Bottom's own.\nKing and queen dance, at peace. Then dawn horns:\nTheseus finds the four and overrules Egeus;\nthree couples will wed, his own among them.\nLysander, cured, is Hermia's again;\nDemetrius, still enchanted, loves Helena.\nBottom wakes past words and runs back to his crew.\n\n[Verse 7]\nWedding night. Three couples watch the play:\na Wall, a Moon; the Lion stains Thisbe's cloak;\nPyramus thinks she's dead, stabs himself;\nshe finds him, does the same. Just actors.\nThe court jokes, Bottom springs up for a dance,\nand midnight sends the lovers to their beds.\n\n[Final Chorus]\nBefore the first cock crow, before the lark,\nset it right, set it right in the dark.\nEvery heart's a wager, every eye's a mark,\nbefore the first cock crow, before the lark.\n\n[Outro]\nFairies bless the house before the day.\nPuck says, if we offended, think you slept;\npardon us, and give us your hands.\nBefore the lark.",
+      "style_prompt": "Future garage with UK bass undertones, about 122 BPM. Swung two-step drums, soft shuffled hats, organic foley percussion (leaves, wood knocks, rain-like shakers) and a warm rounded sub bass. Soft, breathy male lead sung close and intelligible over sparse minor chords and distant pitched vocal chops. Verses stay dim and nocturnal; the chorus layers harmonies, a wider pad and a brighter upper synth line. Bridge drops to solo piano with a ghosted filtered beat. Short gap before the final chorus, which moves the harmony upward and adds high birdsong-like synth to suggest dawn. Spacious but clear mix.",
+      "exclude_styles": "hard techno, aggressive drops, rap, heavy distortion, buried vocals, festival EDM",
+      "vocal_gender": "Male",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "till he weds Hippolyta. Then Egeus makes his case:",
+          "action": "Theseus and Hippolyta count days; Egeus's complaint; Theseus's two penalties; Lysander and Hermia whisper their plan.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She tells him the plan, hoping he'll be grateful.",
+          "action": "Helena's decision; craftsmen take parts for the wedding interlude and set a moonlit rehearsal.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "Midnight. The fairy king and queen collide",
+          "action": "Fairy quarrel and disordered nature; Titania's reason for keeping the boy; flower sent for; Oberon overhears Demetrius and orders Puck, setting the cock-crow deadline. The time stamp is poetic.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0277"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Lysander, not Demetrius, and charms the wrong eyes.",
+          "action": "Oberon charms Titania; Puck mistakes Lysander; Helena wakes him; he abandons Hermia, who wakes from a nightmare and searches.",
+          "source_refs": [
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Small hours. Puck crowns Bottom with a donkey's head;",
+          "action": "Rehearsal; donkey head on Bottom's human body; flight of craftsmen; Titania enchanted with Bottom; fairies serve.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Oberon finds the error and charms Demetrius himself.",
+          "action": "Oberon anoints Demetrius; both men pursue Helena; her mockery charge; Hermia's betrayal; rivals depart to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Four asleep. He cures Lysander's eyes, only his;",
+          "action": "Puck's fog and mimicked voices; Puck urges haste before dawn; four sleep; remedy on Lysander only.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Grey light. Oberon says the charmed queen gave up the boy.",
+          "action": "Oberon's report of an offstage handover by the enchanted Titania. Keep it as narration or a labeled reconstruction. Titania released; Puck lifts the donkey head off Bottom's own head; dance; the lark is heard.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Theseus finds the four and overrules Egeus;",
+          "action": "Horns wake the lovers; Theseus overrules Egeus and orders the weddings, which occur offstage. Bottom wakes and rejoins the troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "Pyramus thinks she's dead, stabs himself;",
+          "action": "Wedding-night play: Wall, Moonshine, Lion and stained mantle; mistaken grief and two staged deaths; Bottom rises; Bergomask; midnight.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "Puck says, if we offended, think you slept;",
+          "action": "Fairies bless the house before day; Puck's conditional appeal for pardon and hands.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The time stamps and the countdown framing interpret Oberon's 'ere the first cock crow' and Puck's warnings about dawn. They are not a precise source timeline. 'Every heart's a wager, every eye's a mark' is the narrator's comment. 'Think you slept' renders Puck's conditional 'think but this… that you have but slumber'd here'. Demetrius is never given the remedy.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Daylight', 'Midnight' and 'Small hours' are poetic, not times stated in the source.",
+          "'Who left her for Hermia' compresses Lysander's and Helena's accounts of Demetrius's earlier vows."
+        ]
+      }
+    },
+    {
+      "id": "06",
+      "title": "Bottom's Dream (It Has No Bottom)",
+      "treatment": "Warm acoustic campfire pop, about 96 BPM. The singalong refrain modernizes Bottom's verdict on his dream.",
+      "narrative_lens": "A storyteller singing past-tense ballad quatrains, as if passing the story around a fire.",
+      "lyrics": "[Verse 1]\nTheseus would wed Hippolyta\nin four days' time, they say,\nwhen Egeus brought his daughter in\nand swore she must obey:\nwed Demetrius, or the law\nwould claim her life instead,\nor a nun's cold cell. She loved Lysander,\nso they planned to steal away\nthrough the wood to his aunt's house,\nbeyond the law's long sway.\n\n[Verse 2]\nNow Helena loved Demetrius,\nwho'd sworn to her, then strayed.\nShe told him of the runaways,\njust hoping he'd be kind;\nhe went chasing after Hermia,\nand she ran close behind.\nAnd Quince's crew went out to practice\nby moonlight, out of sight,\na play of Pyramus and Thisbe,\nBottom in the lead, for the wedding night.\n\n[Chorus]\nIt's Bottom's dream, it has no bottom,\nnothing's the way it seemed.\nThe eye can't hear, the ear can't see,\nit has no bottom, Bottom's dream.\n\n[Verse 3]\nOut in that wood the fairy king\nand queen were bitter foes\nover a boy whose mother died,\nher friend, so the story goes.\nTheir quarrel flooded every field\nand turned the seasons wrong.\nOberon wanted the boy, and sent\nfor a flower, small and strong:\na drop on sleeping eyelids\nmakes you love the first live thing you see.\n\n[Verse 4]\nHe saw Demetrius scorn Helena\nand told Puck, charm that man.\nHe charmed his queen; but Puck found Lysander\nin Athenian clothes, and ran\nthe juice on the wrong man's eyes.\nLysander woke to Helena,\nswore love, and left Hermia there.\nHelena thought he mocked her;\nHermia woke to empty air.\n\n[Chorus]\nIt's Bottom's dream, it has no bottom,\nnothing's the way it seemed.\nThe eye can't hear, the ear can't see,\nit has no bottom, Bottom's dream.\n\n[Verse 5]\nThen Puck gave Bottom a donkey's head,\nand all his friends took flight;\nTitania woke, enchanted,\nand loved him at first sight,\nhad her fairies scratch his ears\nand bring him honey sweet.\nOberon saw Puck's mistake\nand charmed Demetrius in his sleep.\n\n[Verse 6]\nNow two men begged for Helena;\nshe thought it all a game.\nHermia felt robbed and cheated,\nand the rivals' tempers flamed.\nThey went to duel, but Puck brought fog,\nspoke in each rival's name,\nand led them round till all four slept\nbefore the morning came.\n\n[Bridge]\nHe cured Lysander's eyes, only his;\nDemetrius kept the spell.\nOberon told how the charmed queen gave up the boy;\nhe freed her eyes as well.\nPuck lifted the donkey head away\nfrom Bottom's own, and the fairies danced.\n\n[Verse 7]\nAt dawn the horns of Theseus\nwoke the lovers where they lay;\nhe overruled old Egeus:\nthree couples would wed that day.\nLysander, cured, was Hermia's;\nDemetrius, still charmed, loved Helena.\nBottom woke with a dream he couldn't tell,\nand ran back to his friends.\n\n[Verse 8]\nThat night they played for three wed pairs:\nthrough a Wall the lovers sighed,\na Lion stained Thisbe's cloak,\nPyramus thought she'd died\nand stabbed himself; she found him, did the same,\nall acting, while the court joked;\nthen Bottom sat up and offered a dance.\n\n[Final Chorus]\nIt's Bottom's dream, it has no bottom,\nnothing's the way it seemed.\nThe eye can't hear, the ear can't see,\nit has no bottom, Bottom's dream.\n\n[Outro]\nFairies blessed the beds; Puck swept the floor:\nif we shadows have offended,\ncall it a dream, and pardon us.\nGive us your hands. It has no bottom.",
+      "style_prompt": "Warm acoustic pop, about 96 BPM, campfire storytelling feel. Clear, friendly male tenor lead with a gentle lilt, every word easy to follow. Two strummed steel-string guitars panned wide, melodic fingered bass, brushed drums in the verses opening to a soft full kit and hand claps in the chorus. The chorus is a broad singalong with stacked harmonies and a faint organ pad. Bridge drops to one guitar and voice. Short guitar-only turnaround before the final chorus, which adds group vocals and a brief wordless tag. Warm, lightly tape-saturated, close mix.",
+      "exclude_styles": "country twang, heavy reverb, electronic drums, autotune, rock distortion, novelty voices",
+      "vocal_gender": "Male",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "when Egeus brought his daughter in",
+          "action": "Fireside storyteller frame opens on Theseus and Hippolyta's court; Egeus's demand; the law's choices; the lovers plan to flee.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She told him of the runaways,",
+          "action": "Helena resolves to tell Demetrius; Quince's company casts Pyramus and Thisbe, Bottom as Pyramus, and agrees to rehearse by moonlight.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "Out in that wood the fairy king",
+          "action": "Oberon and Titania quarrel; floods and wrong seasons; Titania keeps her dead friend's boy; Oberon describes the flower.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0191"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "the juice on the wrong man's eyes.",
+          "action": "Oberon overhears Demetrius scorn Helena and orders Puck; Titania charmed; Puck anoints Lysander by his clothes; Lysander leaves Hermia for Helena; Hermia wakes alone.",
+          "source_refs": [
+            "II.1.u0192–II.1.u0277",
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Then Puck gave Bottom a donkey's head,",
+          "action": "Rehearsal; Bottom returns with a donkey head on his own body; companions flee; Titania wakes enchanted; fairies attend; later Oberon anoints Demetrius.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0113"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Now two men begged for Helena;",
+          "action": "Both men woo Helena; she suspects mockery; Hermia's anger; rivals leave to duel; fog and false voices lead all four into exhausted sleep.",
+          "source_refs": [
+            "III.2.u0114–III.2.u0478"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "He cured Lysander's eyes, only his;",
+          "action": "Remedy on Lysander's eyes alone; Demetrius untouched.",
+          "source_refs": [
+            "III.2.u0479–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Oberon told how the charmed queen gave up the boy;",
+          "action": "Oberon's report of an offstage handover while Titania was enchanted. Show it as a fireside retelling or a labeled reconstruction, not a scene. Oberon releases Titania; Puck lifts the donkey head off Bottom's own head; fairies dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "he overruled old Egeus:",
+          "action": "Horns; Theseus overrules Egeus and sets three weddings, which happen offstage. Bottom's waking speech; he finds his relieved friends.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 8",
+          "lyric_anchor": "Pyramus thought she'd died",
+          "action": "Married couples watch Wall, Lion, stained mantle, Pyramus's mistaken grief and staged suicide, Thisbe's staged suicide; Bottom sits up; court jokes; dance.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "call it a dream, and pardon us.",
+          "action": "Fairy blessing; Puck's broom and conditional epilogue to the listeners around the fire.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The chorus modernizes Bottom's 'it hath no bottom' and his scrambled senses from IV.1.u0189. Applying that riddle to the whole night is the storyteller's interpretation. Ballad past tense and 'so the story goes' are framing devices. 'Honey sweet' compresses Titania's orders and Bottom's request for honey. The lyric states that Demetrius kept the spell.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Charmed Demetrius in his sleep' compresses Oberon's anointing of the sleeping Demetrius.",
+          "'Three couples would wed that day' is Theseus's order; the ceremony stays offstage."
+        ]
+      }
+    },
+    {
+      "id": "07",
+      "title": "Love-in-Idleness",
+      "treatment": "Nocturnal dark UK bass and dream pop, about 88 BPM in half-time. The flower itself narrates as its juice passes from eye to eye.",
+      "narrative_lens": "The 'little western flower', milk-white before Cupid's arrow and now purple, speaks in first person. It is a poetic witness that knows more than any human.",
+      "lyrics": "[Verse 1]\nI grow in a western field, far from the court\nwhere Theseus counts four days to wed Hippolyta.\nEgeus wants his Hermia to marry Demetrius,\nor the law will take her life, or close her in a nun's cell.\nShe loves Lysander. They plan to run tomorrow night\nthrough the wood, to his aunt's, beyond the law.\n\n[Verse 2]\nHelena loves Demetrius, but he loves Hermia now.\nShe tells him of the flight, hoping he'll be kind;\nhe follows them, she follows him into the trees.\nAnd Quince's craftsmen come to rehearse a wedding play,\nBottom the weaver as Pyramus, Thisbe's love.\n\n[Chorus]\nMilk-white once, now purple with the wound,\nlove-in-idleness under the moon.\nClose your eyes, and open soon,\nlove-in-idleness under the moon.\n\n[Verse 3]\nThe fairy king and queen are quarreling\nover a boy she raises for her dead friend's sake;\ntheir war has drowned the fields and turned the seasons.\nOberon wants the boy. He sends Puck for me:\nmy juice on sleeping eyes will make you love\nthe first live creature that you see.\nHe hears Demetrius scorn Helena: charm that man.\n\n[Verse 4]\nOberon presses me onto his sleeping queen.\nPuck finds Athenian clothes, Lysander asleep,\nand gives him me. The wrong man.\nHelena wakes him; he swears he loves her,\nleaves Hermia sleeping on the ground.\nHelena thinks it's mockery and runs;\nHermia wakes, and the wood is empty.\n\n[Chorus]\nMilk-white once, now purple with the wound,\nlove-in-idleness under the moon.\nClose your eyes, and open soon,\nlove-in-idleness under the moon.\n\n[Verse 5]\nPuck sets a donkey's head on Bottom; his friends flee.\nThe queen wakes with me in her eyes and loves him,\nand her fairies serve him. Oberon sees the mistake\nand lays me on Demetrius himself.\nNow both men want Helena; she thinks they mock her.\nHermia feels betrayed. The rivals go to duel.\n\n[Bridge]\nPuck brings the fog and speaks in their voices,\nwalks them apart till all four sleep.\nAnother herb undoes me on Lysander's eyes,\nonly his.\nDemetrius still wears my juice.\n\n[Verse 6]\nOberon says the queen, still charmed, gave up the boy.\nHis herb undoes me in her eyes; Puck lifts the donkey head\nfrom Bottom's own; the fairies dance in peace.\nTheseus' horns wake the four; he overrules Egeus;\nthree couples will wed, his own among them.\nLysander, cured, loves Hermia again;\nDemetrius, still mine, loves Helena,\nand says some power changed his heart.\nBottom wakes, can't tell his dream, and finds his friends.\n\n[Verse 7]\nMarried, three couples watch the workmen's play:\na Wall, then a Lion stains Thisbe's cloak; Pyramus thinks her dead,\nstabs himself; she finds him, does the same. Only acting.\nBottom sits up; the court laughs; two players dance.\n\n[Final Chorus]\nMilk-white once, now purple with the wound,\nlove-in-idleness under the moon.\nClose your eyes, and open soon,\nlove-in-idleness under the moon.\n\n[Outro]\nThe fairies bless the house.\nPuck says, if we offended, call it a dream,\nand give us your hands.\nMilk-white once, now purple with the wound.",
+      "style_prompt": "Dark UK bass and dream pop, about 88 BPM in a half-time feel. Intimate, soft female lead, almost spoken-sung in the verses, light reverb and a whispered double on key lines, words always clear. Felted piano chords, slow weighty sub bass, nylon guitar accents, dusty sparse drums with a deep kick and soft snare. Short instrumental replies after key lines: a bending synth or a guitar harmonic. The chorus opens into a haunting melody with layered falsetto harmonies and a wider pad, then returns to near silence. Bridge is piano and voice only; final chorus adds a low choir texture.",
+      "exclude_styles": "bright pop, trap hi-hat rolls, belting, heavy distortion, dubstep wobble, cluttered mix",
+      "vocal_gender": "Female",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "Egeus wants his Hermia to marry Demetrius,",
+          "action": "Flower close-up dissolving to Theseus and Hippolyta's court; Egeus's demand; sentence; Lysander and Hermia's flight plan. The flower's view is a poetic frame.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She tells him of the flight, hoping he'll be kind;",
+          "action": "Helena's resolution; craftsmen cast the wedding interlude, Bottom as Pyramus.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "Oberon wants the boy. He sends Puck for me:",
+          "action": "Fairy quarrel and blighted seasons; Oberon's story of Cupid's arrow turning the flower purple; Puck sent; Oberon overhears Demetrius and orders Puck.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0277"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "and gives him me. The wrong man.",
+          "action": "Oberon squeezes the flower on Titania; Puck anoints Lysander; Helena wakes him; Hermia's nightmare and empty clearing.",
+          "source_refs": [
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Puck sets a donkey's head on Bottom; his friends flee.",
+          "action": "Rehearsal; donkey head on Bottom's human body; Titania wakes enchanted and loves him; fairies attend.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "and lays me on Demetrius himself.",
+          "action": "Oberon anoints Demetrius; double wooing; Helena's mockery charge; Hermia's betrayal; rivals go to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Demetrius still wears my juice.",
+          "action": "Fog and imitated voices; four sleepers; Oberon's antidote herb crushed on Lysander's eyes only; a purple stain lingers on Demetrius, a symbolic visual sign of his remaining enchantment rather than a Shakespeare stage direction.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Oberon says the queen, still charmed, gave up the boy.",
+          "action": "Oberon's report of an offstage handover while Titania was enchanted. Show only as narration or a labeled reconstruction. Titania is released with Dian's bud; Puck lifts the donkey head off Bottom's own head; fairy dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Theseus' horns wake the four; he overrules Egeus;",
+          "action": "Hunt; Demetrius's 'some power'; Theseus overrules Egeus; weddings ordered and held offstage. Bottom wakes and rejoins the troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "stabs himself; she finds him, does the same. Only acting.",
+          "action": "Married couples watch Wall, Lion, stained mantle, Pyramus's mistaken grief and two staged stabbings; Bottom sits up; laughter; dance.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "Puck says, if we offended, call it a dream,",
+          "action": "Fairies bless the house; Puck's conditional epilogue; final image of the purple flower.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The flower as narrator is an interpretive device. Its knowledge of Athens is poetic license. The chorus draws on Oberon's 'before milk-white, now purple with love's wound'. 'Demetrius, still mine' and 'still wears my juice' state the source fact that no remedy is shown for him. The humans never learn about the flower.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "Titania is called 'the queen' and not named in this lyric.",
+          "'Another herb' is Oberon's antidote herb, which Puck applies to Lysander."
+        ]
+      }
+    },
+    {
+      "id": "08",
+      "title": "Ill Met by Moonlight",
+      "treatment": "Disco-funk revue, about 112 BPM. Oberon's greeting becomes a shout-along chorus, and the bridge gives Bottom a comic turn of his own.",
+      "narrative_lens": "A theatre master of ceremonies with the band answering in call-and-response. Parenthetical ad libs are sung by backing voices.",
+      "lyrics": "[Verse 1]\nLadies and gentlemen, Athens, four days out:\nTheseus weds Hippolyta, the whole town shouts.\nThen Egeus storms in with his daughter in hand:\nHermia weds Demetrius, that's my command!\nShe loves Lysander (oh no), so the duke lays down the law:\ndeath, or a nun's life, that's all.\nSo the lovers plan to run tomorrow night\nthrough the wood to his aunt's, out of Athens' sight.\n\n[Verse 2]\nHelena loves Demetrius; he won't love her back,\nhe wants Hermia. So she spills the plan for thanks.\nHe chases the lovers, she chases him.\nThen Quince's crew of working men,\nBottom the weaver strutting as Pyramus,\nheads for the duke's oak to rehearse a wedding show:\nPyramus and Thisbe. (Here we go!)\n\n[Chorus]\nIll met by moonlight! (Ill met!)\nEverybody's lost tonight.\nIll met by moonlight! (Ill met!)\nWake up wrong and love on sight.\nIll met, ill met by moonlight.\n\n[Verse 3]\nIn the wood the fairy king and queen are throwing down\nover a boy she keeps for her friend who died.\nRivers flood, the seasons flip. Oberon wants that child.\nHe sends Puck for a flower: juice on sleeping eyes,\nyou love the first live thing you spy.\nHe sees Demetrius dump Helena: Puck, charm that man!\n\n[Verse 4]\nOberon drips it on the sleeping queen.\nPuck finds Athenian clothes on a sleeper. Wrong man! (Wrong man!)\nLysander wakes to Helena, swears he's hers,\nleaves Hermia sleeping. Helena cries mockery and splits;\nHermia wakes alone in the dark.\n\n[Chorus]\nIll met by moonlight! (Ill met!)\nEverybody's lost tonight.\nIll met by moonlight! (Ill met!)\nWake up wrong and love on sight.\nIll met, ill met by moonlight.\n\n[Bridge]\nNow here comes Bottom, rehearsing near the queen.\nPuck gives him a donkey head! (Hee-haw!)\nHis crew runs screaming; Bottom sings to show he's brave.\nTitania wakes, enchanted: what angel's that?\nFairies scratch his ears and fetch him honey.\n(Let him roar again! Let him roar again!)\n\n[Verse 5]\nOberon spots the slip and charms Demetrius himself;\ntwo men chase Helena, and she says it's a prank.\nHermia feels robbed; the rivals go to duel.\nPuck rolls the fog, throws their voices, leads them round\ntill all four drop. Cure on Lysander's eyes, his alone;\nDemetrius stays charmed, and nobody knows.\n\n[Verse 6]\nOberon says the queen, still charmed, gave up the boy;\nhe frees her eyes, Puck pulls the donkey head off Bottom,\nhis own face fine, and the fairy pair make peace.\nMorning horns: Theseus overrules Egeus.\nLysander, cured, is Hermia's; Demetrius, still charmed, is Helena's;\nthree couples will wed, the duke's included. Bottom wakes,\ncan't explain the dream, runs back to the crew. (He's back!)\n\n[Verse 7]\nWedding night, three couples in the hall:\na Wall, a Moon, a Lion stains Thisbe's cloak.\nPyramus thinks she's dead and stabs himself; she does the same.\nIt's only acting, y'all! Bottom pops back up,\nthe court cracks wise, and two players dance.\n\n[Final Chorus]\nIll met by moonlight! (Ill met!)\nEverybody's lost tonight.\nIll met by moonlight! (Ill met!)\nWake up wrong and love on sight.\nIll met, ill met by moonlight.\n\n[Outro]\nFairies bless the beds, Puck sweeps the floor:\nif we shadows have offended, call it a dream,\npardon us, and give us your hands!\nIll met by moonlight!",
+      "style_prompt": "Funk and disco with a theatrical revue feel, about 112 BPM. Soulful, beat-locked male lead with bite and humor and very clear diction in the verses. Rolling fingered electric bass, swung disco drums with open hi-hat lifts, scratchy rhythm guitar and playful brass stabs answering vocal lines. Brief filtered dropouts before each chorus. The chorus explodes with a gang-shouted hook, full brass, string swells and a four-on-the-floor kick. Bridge becomes a comic turn: clavinet riff, bray-like trombone slides, call-and-response ad libs. Final chorus lifts a key. Punchy, bright, clear mix.",
+      "exclude_styles": "dark doom tones, heavy distortion, trap drums, mumbled vocals, autotune, orchestral bombast",
+      "vocal_gender": "Male",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "Then Egeus storms in with his daughter in hand:",
+          "action": "Master of ceremonies at a proscenium; Theseus and Hippolyta's court; Egeus's demand; Theseus's sentence; the lovers' plan.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "he wants Hermia. So she spills the plan for thanks.",
+          "action": "Helena resolves to tell Demetrius; Quince's casting, Bottom as Pyramus, meeting set at the duke's oak.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "In the wood the fairy king and queen are throwing down",
+          "action": "Oberon's 'Ill met by moonlight' meeting with Titania; quarrel over the boy; ruined seasons; flower; Oberon overhears Demetrius and orders Puck.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0277"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Puck finds Athenian clothes on a sleeper.",
+          "action": "Oberon charms Titania; Puck anoints Lysander; Helena wakes him; Hermia wakes alone.",
+          "source_refs": [
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Puck gives him a donkey head!",
+          "action": "Comic turn: rehearsal; Bottom with donkey head on his human body; crew flees; Bottom sings; Titania wakes enchanted; fairies attend him. 'Let him roar again' is an ad lib borrowed from his casting boast.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "IV.1.u0001–IV.1.u0027"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Oberon spots the slip and charms Demetrius himself;",
+          "action": "Oberon anoints Demetrius; both men pursue Helena; Helena's mockery charge; Hermia's fury; rivals go to fight.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0365"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Demetrius stays charmed, and nobody knows.",
+          "action": "Fog chase with mimicked voices; four sleepers; remedy squeezed on Lysander only.",
+          "source_refs": [
+            "III.2.u0366–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Oberon says the queen, still charmed, gave up the boy;",
+          "action": "Oberon tells Puck of an offstage handover made while Titania was enchanted. Keep it as his report or a labeled reconstruction. Titania released; Puck removes the donkey head and Bottom's own face is unharmed; fairy pair dance.",
+          "source_refs": [
+            "IV.1.u0028–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Morning horns: Theseus overrules Egeus.",
+          "action": "Lovers woken by horns; Theseus overrules Egeus; weddings ordered and occur offstage. Bottom wakes and bursts in on his relieved troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "It's only acting, y'all!",
+          "action": "Great hall: Wall, Moonshine, Lion and stained mantle; Pyramus's mistaken grief and stage death; Thisbe's stage death; Bottom rises; court quips; Bergomask.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0332"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "if we shadows have offended, call it a dream,",
+          "action": "Fairy blessing of the house; Puck's broom and conditional appeal for pardon and applause.",
+          "source_refs": [
+            "V.1.u0333–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The master-of-ceremonies voice and the ad libs are interpretive. 'Let him roar again' comes from Bottom's casting boast (I.2.u0040) and is reused here as a chant. Bottom keeps a man's body and gains only a donkey head. Titania's love is explicitly enchanted. 'Nobody knows' means the humans never learn of the flower, while Demetrius remains charmed.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "Bottom's donkey episode is placed in the bridge, after the Lysander mistake, for comic contrast. This groups a parallel fairy subplot for the comic bridge, combining the III.1 enchantment with IV.1 details like the scratching and honey (cf. IV.1.u0003–u0004). It is not exact scene-by-scene order.",
+          "'Dump' and 'splits' are casual paraphrases of Demetrius's rejection and Helena's exit."
+        ]
+      }
+    },
+    {
+      "id": "09",
+      "title": "Jack Gets His Jill",
+      "treatment": "Moonlit neo soul, about 78 BPM. Puck's country proverb is updated into a slow refrain that the narrator keeps testing against what actually happens.",
+      "narrative_lens": "An intimate narrator telling the story slowly to a lover ('let me tell it slow, love') in loose, unhurried phrases.",
+      "lyrics": "[Verse 1]\nLet me tell it slow, love.\nTheseus is counting four days\ntill he marries Hippolyta,\nwhen Egeus walks his daughter in:\nHermia marries Demetrius,\nor the law takes her life,\nor she lives out her days as a nun.\nShe loves Lysander, so they whisper a plan:\ntomorrow night, through the wood,\nto his aunt's, beyond the law.\n\n[Verse 2]\nNow Helena loves Demetrius,\nand he swore he loved her too,\ntill he saw Hermia. So she tells him,\nhoping for one kind word.\nHe runs after them; she runs after him.\nSame night, Quince's workmen,\nBottom the weaver as Pyramus,\nslip out to rehearse a wedding play\nwhere no one's watching.\n\n[Chorus]\nJack gets his Jill, nothing goes ill,\nevery man gets his own again.\nJack gets his Jill, and all will be well,\nbut somebody's still under the spell.\n\n[Verse 3]\nIn that wood a fairy king and queen\nare fighting over a boy\nshe raises for his mother, her friend who died,\nand the seasons come undone.\nOberon wants the boy. He sends Puck for a flower:\none drop on sleeping eyes,\nyou love the first live thing you see.\nHe hears Demetrius cast Helena off.\nPuck, charm that man.\n\n[Verse 4]\nHe drops it on his sleeping queen.\nPuck sees Athenian clothes on Lysander\nand takes him for the man.\nHelena wakes him; he swears he loves her,\nleaves Hermia sleeping in the dark.\nHelena thinks he's mocking her, and goes;\nHermia wakes to no one.\n\n[Chorus]\nJack gets his Jill, nothing goes ill,\nevery man gets his own again.\nJack gets his Jill, and all will be well,\nbut somebody's still under the spell.\n\n[Verse 5]\nPuck gives Bottom a donkey's head; his friends run.\nTitania wakes, enchanted, loves him, has her fairies feed him honey.\nOberon catches the mistake and touches Demetrius' eyes himself.\nBoth men woo Helena; she calls it cruelty.\nHermia feels betrayed; the men go off to duel,\nbut Puck brings the fog, speaks in each man's voice,\nand walks them round till all four lie down.\n\n[Bridge]\nCure on Lysander's eyes, and only his.\nDemetrius still wears the flower's kiss.\nOberon says the queen, while charmed, gave up the boy;\nhe frees her; Puck lifts the donkey head from Bottom's own,\nand the fairies dance.\n\n[Verse 6]\nDawn horns: Theseus finds the lovers and overrules Egeus;\nthree couples will wed, his own among them.\nLysander's back with Hermia;\nDemetrius, still enchanted, loves Helena,\nsays some power turned his heart.\nBottom wakes, can't say his dream,\nruns back to his crew.\n\n[Verse 7]\nAt the feast, the couples watch the play:\nlovers whisper through a Wall; a Lion stains Thisbe's cloak;\nPyramus thinks her dead,\nstabs himself; she finds him, does the same. Just acting.\nThe couples laugh, the players dance,\nand the fairies bless the house.\n\n[Final Chorus]\nJack gets his Jill, nothing goes ill,\nevery man gets his own again.\nJack gets his Jill, and all will be well,\nbut somebody's still under the spell.\n\n[Outro]\nPuck says, if we offended, think it was a dream;\npardon us, and give us your hands.\nJack gets his Jill. Nothing goes ill?",
+      "style_prompt": "Alternative R&B and neo soul, about 78 BPM. Clear, warm female lead with short, tasteful runs that never blur the words, intimate and conversational in the verses. Electric piano with a slow chorus effect, muted clean guitar comping, deep round bass, sparse rimshot-and-brush drums and a faint vinyl hush. The chorus widens with layered backing harmonies, a fuller kick and a gentle string pad; its last line is sung almost alone. Bridge is bass, rimshot and voice. Brief instrumental breath before the final chorus, which adds gospel-tinged stacked harmonies and a short guitar answer. Warm, close mix.",
+      "exclude_styles": "trap drums, heavy autotune, long melismatic runs, EDM drops, rock guitars, rap",
+      "vocal_gender": "Female",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Titania",
+          "cue": "tih-TAH-nee-uh"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "when Egeus walks his daughter in:",
+          "action": "Late-night storyteller frame, then Theseus and Hippolyta's court; Egeus's demand; sentence; the whispered plan.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "hoping for one kind word.",
+          "action": "Helena's soliloquy and decision; Quince's craftsmen cast the play and agree to rehearse unseen.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "she raises for his mother, her friend who died,",
+          "action": "Titania tells of the boy's mother; seasons undone; flower sent for; Oberon overhears Demetrius and orders Puck.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0277"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Puck sees Athenian clothes on Lysander",
+          "action": "Oberon charms Titania; Puck's mistaken anointing; Helena wakes Lysander; he abandons Hermia, who wakes alone.",
+          "source_refs": [
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Puck gives Bottom a donkey's head; his friends run.",
+          "action": "Rehearsal; donkey head on Bottom's human body; flight; Titania enchanted with him; fairies serve.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Oberon catches the mistake and touches Demetrius' eyes himself.",
+          "action": "Oberon anoints Demetrius; double wooing; Helena's accusation; Hermia's betrayal; rivals seek a duel; Puck's fog and mimicry lead all four into sleep.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0478"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Cure on Lysander's eyes, and only his.",
+          "action": "Remedy on Lysander only; Puck speaks the proverb over the sleepers; Demetrius untouched.",
+          "source_refs": [
+            "III.2.u0479–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Oberon says the queen, while charmed, gave up the boy;",
+          "action": "Oberon's report of an offstage handover while Titania was enchanted. Show it only as narration or a labeled reconstruction. Titania released; Puck lifts the donkey head off Bottom's own head; fairy dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Dawn horns: Theseus finds the lovers and overrules Egeus;",
+          "action": "Horns; Demetrius's 'some power'; Theseus overrules Egeus; weddings ordered and held offstage. Bottom wakes and rejoins his troupe.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "stabs himself; she finds him, does the same. Just acting.",
+          "action": "Married couples watch Wall, Lion, stained mantle and the staged double death; laughter; Bergomask; fairies enter to bless.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0386"
+          ]
+        },
+        {
+          "section": "Outro",
+          "lyric_anchor": "Puck says, if we offended, think it was a dream;",
+          "action": "Puck's conditional epilogue; the proverb ends as a question over the sleeping house.",
+          "source_refs": [
+            "V.1.u0387–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The chorus updates Puck's proverb (III.2.u0489–u0494). 'But somebody's still under the spell' and the final 'Nothing goes ill?' are the narrator's interpretation, measuring the comic ending against Demetrius's charm, which is never removed. The lovers never learn of the magic. 'The flower's kiss' is a metaphor for the juice.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "'Has her fairies feed him honey' compresses Titania's instructions and Bottom's later requests.",
+          "'The seasons come undone' compresses Titania's detailed account of the disorder."
+        ]
+      }
+    },
+    {
+      "id": "10",
+      "title": "If We Shadows",
+      "treatment": "Dreaming Jersey club finale, about 138 BPM with half-time vocal phrasing. Puck's closing apology becomes a melancholy club chorus that asks who is still enchanted.",
+      "narrative_lens": "A wry Puck-like voice in chopped, repeated phrases, offering the whole story as something the audience may call a dream.",
+      "lyrics": "[Verse 1]\nFour days out, Theseus and Hippolyta,\nwedding on the way.\nEgeus wants Demetrius for Hermia;\nshe has to obey,\nor she dies, or she lives as a nun.\nShe loves Lysander, so they plan to run:\ntomorrow night, through the wood,\nto his aunt's house, gone for good.\n\n[Verse 2]\nHelena loves Demetrius,\nbut he wants Hermia.\nShe tells him they're running, hoping for thanks;\nhe follows them, she follows him,\nchase, chase, into the dark.\nSame night, Quince's crew, Bottom as Pyramus,\nrehearse a wedding play,\nPyramus and Thisbe, deep in the wood.\n\n[Chorus]\nIf we shadows have offended,\nthink you slept, and all is mended.\nCall it a dream, call it a dream,\nbut who's still enchanted?\n\n[Verse 3]\nFairy king, fairy queen,\nfighting for a boy,\nher dead friend's son; she keeps him close.\nFloods and frost, the seasons lost.\nOberon wants him. Puck, fetch the flower:\njuice on sleeping eyes,\nlove the first live thing you spy.\nDemetrius spurns Helena. Puck, charm that man.\n\n[Verse 4]\nOberon charms his sleeping queen.\nPuck sees Athenian clothes. Wrong man, wrong man:\nLysander wakes to Helena,\nswears he loves her, leaves Hermia sleeping.\nHelena thinks it's mockery and runs;\nHermia wakes alone, alone, calling out his name.\n\n[Chorus]\nIf we shadows have offended,\nthink you slept, and all is mended.\nCall it a dream, call it a dream,\nbut who's still enchanted?\n\n[Verse 5]\nDonkey head on Bottom. Crew runs, crew runs.\nQueen wakes, charmed, loves him; fairies serve.\nOberon sees the slip, charms Demetrius himself.\nTwo men chase Helena; she thinks it's a joke.\nHermia, betrayed. Rivals go to duel.\nPuck drops fog, throws their voices,\nround and round till four fall down.\n\n[Bridge]\nCure on Lysander's eyes. Only his.\nDemetrius wakes still wearing the flower.\nOberon says the charmed queen gave up the boy;\nhe frees her, Puck lifts the donkey head\noff Bottom's own, and the fairies dance.\n\n[Verse 6]\nDawn horns. Theseus finds them, overrules Egeus;\nthree couples will wed, his own among them.\nLysander, cured, back with Hermia;\nDemetrius, still enchanted, with Helena.\nDemetrius says some power changed his heart.\nBottom wakes, can't say his dream,\nruns back to his crew.\n\n[Chorus]\nIf we shadows have offended,\nthink you slept, and all is mended.\nCall it a dream, call it a dream,\nbut who's still enchanted?\n\n[Verse 7]\nWedding night, three couples watch:\nWall in the middle; Lion stains Thisbe's cloak;\nPyramus thinks her dead,\nstabs himself; she does the same. Just actors.\nBottom gets up. Court laughs. Two players dance; midnight.\nFairies bless the house.\n\n[Final Chorus]\nIf we shadows have offended,\nthink you slept, and all is mended.\nCall it a dream, call it a dream,\nbut who's still enchanted?\nIf you pardon, we will mend it.\nGive me your hands, and we'll be friends.\n\n[Outro]\nPuck sweeps the dust behind the door.\nGood night unto you all.\nCall it a dream, call it a dream.\nWho's still enchanted?",
+      "style_prompt": "Melodic Jersey club, about 138 BPM, with the vocal phrased in spacious half-time so the story stays readable. Syncopated triplet kick patterns, organic textured percussion (woodblock, shakers, finger snaps), a sliding sub bass, strummed acoustic guitar and a slightly detuned piano carrying melancholy chords. Intimate male lead with a soft, wry edge, lightly layered octave doubles, every word clear. Verses keep the kicks low under guitar and piano; choruses bring the full club kick, chopped echoes of the hook and a wide pad. Bridge pulls down to piano and snaps. Final chorus adds stacked harmonies before a bare outro.",
+      "exclude_styles": "aggressive chants, explicit vocal samples, heavy autotune, distorted bass, rap, cluttered vocal chops over verses",
+      "vocal_gender": "Male",
+      "pronunciation": [
+        {
+          "name": "Theseus",
+          "cue": "THEE-see-us"
+        },
+        {
+          "name": "Hippolyta",
+          "cue": "hih-POL-ih-tuh"
+        },
+        {
+          "name": "Egeus",
+          "cue": "ee-JEE-us"
+        },
+        {
+          "name": "Hermia",
+          "cue": "HER-mee-uh"
+        },
+        {
+          "name": "Demetrius",
+          "cue": "dih-MEE-tree-us"
+        },
+        {
+          "name": "Lysander",
+          "cue": "lye-SAN-der"
+        },
+        {
+          "name": "Helena",
+          "cue": "HEL-en-uh"
+        },
+        {
+          "name": "Quince",
+          "cue": "KWINS"
+        },
+        {
+          "name": "Bottom",
+          "cue": "BAH-tum"
+        },
+        {
+          "name": "Pyramus",
+          "cue": "PIR-uh-mus"
+        },
+        {
+          "name": "Thisbe",
+          "cue": "THIZ-bee"
+        },
+        {
+          "name": "Oberon",
+          "cue": "OH-buh-ron"
+        },
+        {
+          "name": "Puck",
+          "cue": "PUK"
+        }
+      ],
+      "video_beats": [
+        {
+          "section": "Verse 1",
+          "lyric_anchor": "Egeus wants Demetrius for Hermia;",
+          "action": "Theseus and Hippolyta's court in quick cuts; Egeus's demand; the law's penalties; the lovers' plan to run.",
+          "source_refs": [
+            "I.1.u0001–I.1.u0183"
+          ]
+        },
+        {
+          "section": "Verse 2",
+          "lyric_anchor": "She tells him they're running, hoping for thanks;",
+          "action": "Helena's decision; Quince's company casts the play and plans the wood rehearsal.",
+          "source_refs": [
+            "I.1.u0184–I.1.u0258",
+            "I.2.u0001–I.2.u0051"
+          ]
+        },
+        {
+          "section": "Verse 3",
+          "lyric_anchor": "her dead friend's son; she keeps him close.",
+          "action": "Fairy quarrel; floods and frost; Oberon sends for the flower; Oberon overhears Demetrius spurn Helena and orders Puck.",
+          "source_refs": [
+            "II.1.u0062–II.1.u0277"
+          ]
+        },
+        {
+          "section": "Verse 4",
+          "lyric_anchor": "Puck sees Athenian clothes. Wrong man, wrong man:",
+          "action": "Oberon charms Titania; Puck anoints Lysander; Helena wakes him; Hermia wakes alone and calls for him.",
+          "source_refs": [
+            "II.2.u0031–II.2.u0164"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Donkey head on Bottom. Crew runs, crew runs.",
+          "action": "Rehearsal; donkey head on Bottom's human body; flight; Titania wakes enchanted; fairies attend.",
+          "source_refs": [
+            "III.1.u0001–III.1.u0127",
+            "III.2.u0001–III.2.u0038"
+          ]
+        },
+        {
+          "section": "Verse 5",
+          "lyric_anchor": "Oberon sees the slip, charms Demetrius himself.",
+          "action": "Oberon anoints Demetrius; double wooing; Helena's mockery charge; Hermia's betrayal; rivals seek a duel; fog and false voices lead them to sleep.",
+          "source_refs": [
+            "III.2.u0039–III.2.u0478"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Cure on Lysander's eyes. Only his.",
+          "action": "Remedy on Lysander only; Demetrius sleeps with the charm unremoved.",
+          "source_refs": [
+            "III.2.u0479–III.2.u0494"
+          ]
+        },
+        {
+          "section": "Bridge",
+          "lyric_anchor": "Oberon says the charmed queen gave up the boy;",
+          "action": "Oberon's spoken report of an offstage handover while Titania was enchanted. Do not stage it as an onstage scene; any image must be labeled a reconstruction. Titania released; Puck lifts the donkey head off Bottom's own head; fairies dance.",
+          "source_refs": [
+            "IV.1.u0001–IV.1.u0086"
+          ]
+        },
+        {
+          "section": "Verse 6",
+          "lyric_anchor": "Dawn horns. Theseus finds them, overrules Egeus;",
+          "action": "Hunt wakes the lovers; Demetrius's 'some power'; Theseus overrules Egeus; weddings held offstage. Bottom wakes and returns to his crew.",
+          "source_refs": [
+            "IV.1.u0087–IV.1.u0189",
+            "IV.2.u0001–IV.2.u0017"
+          ]
+        },
+        {
+          "section": "Verse 7",
+          "lyric_anchor": "stabs himself; she does the same. Just actors.",
+          "action": "Married couples watch Wall, Lion, stained mantle and the staged double death; Bottom rises; laughter; Bergomask; midnight; fairies bless the house.",
+          "source_refs": [
+            "V.1.u0112–V.1.u0386"
+          ]
+        },
+        {
+          "section": "Final Chorus / Outro",
+          "lyric_anchor": "If you pardon, we will mend it.",
+          "action": "Puck addresses the audience at the edge of the stage: a conditional dream framing, pardon, hands; broom and goodnight. Fairy events are not disproved.",
+          "source_refs": [
+            "V.1.u0387–V.1.u0402"
+          ]
+        }
+      ],
+      "adaptation_note": "The chorus adapts Puck's epilogue. 'Think you slept' and 'call it a dream' keep his conditional offer and do not declare that the events never happened. 'But who's still enchanted?' is the narrator's question pointing at Demetrius. The chopped repetitions ('crew runs, crew runs') are a rhythmic device. 'Puck sweeps the dust behind the door' comes from Puck's speech before the blessing and is moved to the outro.",
+      "fidelity_check": {
+        "full_story": true,
+        "demetrius_remains_enchanted": true,
+        "staged_deaths_not_real_lovers": true,
+        "remaining_cautions": [
+          "Titania is called 'fairy queen' or 'queen' and not named in this lyric.",
+          "The outro reorders the broom line, which in the source comes before the blessing, to sit after the epilogue."
+        ]
+      }
+    }
+  ]
+}
