@@ -1,0 +1,28 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "Future panel to accepted Echo edition alignment",
+  "type": "object",
+  "required": ["panel_id", "chapter_id", "source_unit_ids", "exact_text_anchor", "epub_sha256", "narration_sha256", "alignment_unit_ids", "start_seconds", "end_seconds", "verified"],
+  "properties": {
+    "panel_id": {"type": "string", "minLength": 1},
+    "chapter_id": {"type": "string", "pattern": "^ch(0[1-9]|1[0-2])$"},
+    "source_unit_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "exact_text_anchor": {"type": ["string", "null"]},
+    "epub_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "narration_sha256": {"type": ["string", "null"], "pattern": "^[0-9a-f]{64}$"},
+    "alignment_unit_ids": {"type": "array", "items": {"type": "string", "minLength": 1}},
+    "start_seconds": {"type": ["number", "null"], "minimum": 0},
+    "end_seconds": {"type": ["number", "null"], "minimum": 0},
+    "verified": {"type": "boolean"}
+  },
+  "allOf": [{
+    "if": {"properties": {"verified": {"const": true}}},
+    "then": {"properties": {
+      "epub_sha256": {"type": "string"}, "narration_sha256": {"type": "string"},
+      "exact_text_anchor": {"type": "string", "minLength": 1},
+      "source_unit_ids": {"minItems": 1}, "alignment_unit_ids": {"minItems": 1},
+      "start_seconds": {"type": "number"}, "end_seconds": {"type": "number"}
+    }}
+  }],
+  "$comment": "tools.bench_contract.validate_alignment additionally enforces finite start/end and start < end. Null timings stay unverified until supplied by the final matching Echo edition; no inferred seconds."
+}

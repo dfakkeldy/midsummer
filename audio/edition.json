@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "title": "A Midsummer Night’s Dream — complete private edition",
+  "chapter_count": 12,
+  "duration_seconds": 8535,
+  "synthetic_voice_count": 22,
+  "spoken_blocks": 652,
+  "guide_paragraphs": 77,
+  "epub_sha256": "76852829d00ad6060c06f55321a0c9619dca6762ab3fdd7f6cac472866dcdc0d",
+  "narration_sha256": "6767c04c6d33237ff08a82446774f2b9eea4e02e5a66a580dd4987c2c4ba1e38",
+  "availability": "private; no public download",
+  "release_terms": "Individual source, synthetic-voice and media rights review remains pending. No blanket CC-BY audio license is granted.",
+  "human_full_book_reading": "pending",
+  "human_full_book_listening": "pending",
+  "human_listening_cue": "Sparse full-scale sample peaks are flagged for listening; their audible effect has not been established. The governed master is unchanged.",
+  "evidence_basis": "Completed private production handoff; source order, alignment records, chapter navigation and technical decoding verified there. This metadata is not a perceptual listening claim."
+}

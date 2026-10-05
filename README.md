@@ -4,24 +4,25 @@ A public home for a plain-English A Midsummer Night’s Dream adaptation, origin
 
 ## Available now
 
-- Twelve frozen, source-grounded prose chapters in [adaptation/chapters](adaptation/chapters), with clearly signposted listening guides.
+- Twelve frozen prose chapters with clearly signposted listening guides in [adaptation](adaptation/README.md), exact source-unit coverage and pronunciation notes.
 - Ten original whole-story lyric alternatives in [music/lyrics](music/lyrics).
-- Historical edition provenance in [source](source).
+- Historical edition provenance in [source](source/README.md).
+- 10 reviewed painted stills in the [five-scene comparison](comparisons/midsummer-five-panels/README.md), with original drawing source, public previews, scores and model evidence.
 
-The adaptation preserves the play’s enchantment and consent complications. Chapter 1 and the rehearsal audio sample have human acceptance; full-book human reading and listening remain pending. Independent AI source/fidelity checks do not establish scholarly or human approval.
+The adaptation preserves the play’s enchantment and consent complications. Chapter 1 and the rehearsal audio sample have human acceptance; full-book human reading and listening remain pending. Independent AI checks do not establish scholarly or human approval. The [completed private audiobook metadata](audio/edition.json) records matching edition hashes; audio and generated music remain private pending individual release terms.
 
 ## Painted-panel comparison
 
-The next deliverable is twenty bright, colourful still manga panels: the same five scenes from GPT-6.1 Sol, GPT-6 Astra, Claude Opus 5.5 and Claude Fable 5.1. Fine ink, organic forest forms and watercolour texture draw on Arthur Rackham’s approach, with original clearly adult character designs and non-explicit fashion/glamour staging. There are no generated comparison pictures yet.
+The comparison requests the same five scenes from GPT-6.1 Sol, GPT-6 Astra, Claude Opus 5.5 and Claude Fable 5.1. Complete four-model comparison: no; see recorded missing results. The bright jewel palette, fine ink and watercolour texture draw on Arthur Rackham’s approach. Characters are original clearly adult, awake and unenchanted, in non-explicit fashion/glamour stagings. These stills are comparison artwork; later canonical story panels require their own selection and verified Echo alignment.
 
 ## Project areas
 
-`source/`, `adaptation/`, `audio/`, `music/`, `art/`, `panels/`, `video/`, `comparisons/`, `reviews/` and `licensing/` keep provenance, text, production and review distinct. Audio/music recordings remain private pending their own release terms. Later video and full manga production are separate phases.
+source/, adaptation/, audio/, music/, art/, panels/, video/, comparisons/, reviews/ and licensing/ keep provenance, text, production and review distinct. Later video and full manga production are separate phases.
 
 ## Credits and reuse
 
-Original author: William Shakespeare. Adapter and curator: Dan Fakkeldy. Prose lead: verified Claude Opus 5.5. Lyric first pass: verified Claude Fable 5.1; lyric revision: verified Claude Opus 5.5.
+Original author: William Shakespeare. Adapter and curator: Dan Fakkeldy. Prose lead: verified Claude Opus 5.5. Lyric first pass: verified Claude Fable 5.1; lyric revision: verified Claude Opus 5.5. Every painting’s actual author and pass are recorded with its source and image hashes.
 
-New code uses MIT. Rights-cleared original adaptation text, lyrics and original art use CC BY 4.0 to the extent the curator can license them. Historical source material retains its public-domain status and notices. Third-party code, fonts and audio retain their own terms. See [licensing](licensing).
+New code uses MIT. Rights-cleared original adaptation text, lyrics and original art use CC BY 4.0 to the extent the curator can license them. Historical source material retains its public-domain status and notices. Third-party code, fonts and audio retain their own terms. See [licensing](licensing/README.md).
 
-High-resolution masters and recordings are referenced by manifests or cleared release downloads. Private conversations, credentials, account metadata, operational receipts, copyrighted references and uncleared media are excluded from this repository.
+High-resolution masters and recordings stay outside Git. Private conversations, credentials, account metadata, operational receipts, copyrighted references and uncleared media are excluded.

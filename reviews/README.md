@@ -1,3 +1,3 @@
 # Reviews
 
-Public-safe QA summaries and blind scores will be added with clear limits. Raw review packets and author/provider receipts remain private.
+[Panel comparison](panel-comparison.md) reports frozen blind scores, verified model coverage and method limitations. Raw provider receipts and review packets remain private. AI review does not establish human acceptance.

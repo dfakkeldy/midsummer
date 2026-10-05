@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "upstream": "https://github.com/dfakkeldy/claude-skills",
+  "commit": "8249375879aa8f273b3f661058060a480153e66d",
+  "engine_tree": "98d62df2c40d99a1ecea17632441369a002638e0",
+  "files": [
+    {
+      "path": "LICENSE",
+      "sha256": "7d25ae95b305b884c08ce898e53b58d2e180ff0119e5d203d8b4ae30420f3b33"
+    },
+    {
+      "path": "NOTICE",
+      "sha256": "cfec21819c509ef656a3cdab5dfef411388cabfc0239b1838f694412042bcce3"
+    },
+    {
+      "path": "package.json",
+      "sha256": "c097c995f6baf949fdb10cd213dc64c2ac5d94a79398f7e0a23f498a7268baba"
+    },
+    {
+      "path": "package-lock.json",
+      "sha256": "3a9a7d066d1474fea659627c6a3f73811f749945550324c07acb8aa80df76bc8"
+    },
+    {
+      "path": "render.mjs",
+      "sha256": "f6225f336ba83fae347f3648518dbd45b2c924e72fb834e52e3228a50d173a37"
+    },
+    {
+      "path": "studio.html",
+      "sha256": "2de23816759e5c6cae3298e7da542a486fccf4c3551958178d2970b5f9c31a85"
+    },
+    {
+      "path": "ANIMATION_GUIDE.md",
+      "sha256": "e55f2f26732e1fbce61bf0b577d93552515e97917ac15dc1219bd32ec44147b4"
+    },
+    {
+      "path": "src/anime.js",
+      "sha256": "8c8169c8e9e0815e4f782b76f4fe19848d2c673833e5cbf29888f59e0893cdc7"
+    },
+    {
+      "path": "src/anime_sheets.js",
+      "sha256": "256eb14fc3ea30a75c10834e9e6ec8f3ae2d1ce94123e361d9d798548777b827"
+    },
+    {
+      "path": "src/captions.js",
+      "sha256": "a03c36988592e7517400fb37d017be77569e6d395778655bf9215bb01a7684ee"
+    },
+    {
+      "path": "src/cel.js",
+      "sha256": "f5f712cec59341bfb8f78b54e8e8a1e94bf505500fb22d9008c25e797aab7b6f"
+    },
+    {
+      "path": "src/clawd.js",
+      "sha256": "578fbd46d21cdcc92b14806f3cc8c7b1b9e9f7ea53ddda7b1c150afa9f3c512a"
+    },
+    {
+      "path": "src/config.js",
+      "sha256": "1833b0fe6fff0cd1e72d5d339e1977690790b8d584055631c139d850489aaef3"
+    },
+    {
+      "path": "src/core.js",
+      "sha256": "fefa729d359e3ca24dd1fa86f5b4af48b8eab9a95b028cdca3b5a134e08dd06c"
+    },
+    {
+      "path": "src/manifest.js",
+      "sha256": "8c3f51c5309a2726e6647e77a9339d12e539d36b86632a62919e9dc195dde987"
+    },
+    {
+      "path": "src/screen.js",
+      "sha256": "951ca13dc34184e00a9cfe22cb66f49b5068d2b7ad035fe52634bde28096a6f5"
+    },
+    {
+      "path": "src/sheets.js",
+      "sha256": "cdd9320e0cb5e1e5bbfdeac221e21b69714b96e4a9b05e62cda4817b4d80010c"
+    },
+    {
+      "path": "src/timeline.js",
+      "sha256": "93d455142bf642355cb77cce64ad1a8397996be4f23e121bd18d6fce52bc1503"
+    },
+    {
+      "path": "src/timing.js",
+      "sha256": "3b4ab418f6449c91f41780589ad0f0051b489c7c71ac32439910e2afe357b9f9"
+    }
+  ],
+  "common_harness": {
+    "path": "engine/panel-studio.html",
+    "sha256": "a3c63e4c6188833e293f1bc7b6df19f7d80c10405688710a8e844220c4df3197",
+    "changes": "Remote font stylesheet removed; no-network CSP; seeded Math.random only for dependency initialization; p5.brush RNG/noise seeded before setup and each renderAt. Authored Math.random remains prohibited. Engine JS unchanged."
+  },
+  "excluded": [
+    "docs/*.jpg",
+    "private project assets",
+    "node_modules"
+  ],
+  "runtime_dependencies": {
+    "p5": "2.3.3",
+    "p5.brush": "2.2.3",
+    "puppeteer-core": "25.11.0"
+  }
+}
